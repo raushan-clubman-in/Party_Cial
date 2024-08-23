@@ -1,0 +1,1644 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SpecialParty
+</name>
+</assembly>
+<members>
+<member name="T:partymodule.Dataset1.PARTY_VIEW_HALLSTATUSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_VIEW_BOOKING_DETAILSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.party_view_hallhistoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_CANCELLATIONHISTORYDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_CANCELLATIONHISTORY1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_CATEGORYHISTORYDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_GROUPHISTORYDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_locationHISTORYDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_MENUGROUPHISTORYDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_MENUHISTORYDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_PURPOSEHISTORYDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_TARIFFHISTORYDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.membermaster_viewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_MEMBERMASTERDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.party_REST_itemwiseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.party_arrangemaster_hdrDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.party_restaurantDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.party_grouping_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_BOOKINGDETAILSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.CREDIT_MEMBER_MPOSTINGDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_BILLINGDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.Party_TariffHdrDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PRATY_VIEW_PARTYADDTIONALCHARGEABLEITEMSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PRATY_VIEW_PARTYHALLDETAILSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PRATY_VIEW_PARTYLIQURITEMSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PRATY_VIEW_PARTYHALLDETAILS1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_BAR_CONSUMPTIONDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_TAR_VIEW1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_VIEW_HALLBOOKINGDETAILSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_RESTITEMSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_BOOKINGDETAILS1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.partyarrangementfinalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_VIEW_HALLBOOKINGDETAILS_NEWDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.partyreceiptvoucher1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_VIEWHEADDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.partyreceiptvoucherDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_MENUDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_ARRANGEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.party_arrangement_bookDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.party_menu_bookDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_MENDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PAR_ARRANGEMENTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PAR_HDRDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PAR_RECEIPTSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PAR_RECEIPTS_REFUNDDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.partyreceiptreportDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PAR_HALLBOOKINGDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.partyreceiptvoucher_CANCELDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_ITEM_DISCOUNTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.HALLBOOKINGDISCOUNTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.BANQUETFREEZEREPORTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.partyreceiptreport_REFUNDDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.totalbanquetreportDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PAR_ADDITIONALITEMSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_BOOKDETAILSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.foodorder1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.party_receiptsummaryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.party_book_memberwiseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_RECEIPTREPORTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_BOOKDETAILS1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.partyreceipt_viewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_BILLDETAILSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_VIEW_HALLSTATUSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_VIEW_BOOKING_DETAILSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.party_view_hallhistoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_CANCELLATIONHISTORYRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_CANCELLATIONHISTORY1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_CATEGORYHISTORYRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_GROUPHISTORYRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_locationHISTORYRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_MENUGROUPHISTORYRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_MENUHISTORYRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_PURPOSEHISTORYRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_TARIFFHISTORYRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.membermaster_viewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_MEMBERMASTERRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.party_REST_itemwiseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.party_arrangemaster_hdrRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.party_restaurantRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.party_grouping_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_BOOKINGDETAILSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.CREDIT_MEMBER_MPOSTINGRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_BILLINGRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.Party_TariffHdrRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PRATY_VIEW_PARTYADDTIONALCHARGEABLEITEMSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PRATY_VIEW_PARTYHALLDETAILSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PRATY_VIEW_PARTYLIQURITEMSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PRATY_VIEW_PARTYHALLDETAILS1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_BAR_CONSUMPTIONRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_TAR_VIEW1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_VIEW_HALLBOOKINGDETAILSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_RESTITEMSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_BOOKINGDETAILS1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.partyarrangementfinalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_VIEW_HALLBOOKINGDETAILS_NEWRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.partyreceiptvoucher1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_VIEWHEADRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.partyreceiptvoucherRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_MENURow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_ARRANGERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.party_arrangement_bookRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.party_menu_bookRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_MENRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PAR_ARRANGEMENTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PAR_HDRRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PAR_RECEIPTSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PAR_RECEIPTS_REFUNDRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.partyreceiptreportRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PAR_HALLBOOKINGRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.partyreceiptvoucher_CANCELRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_ITEM_DISCOUNTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.HALLBOOKINGDISCOUNTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.BANQUETFREEZEREPORTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.partyreceiptreport_REFUNDRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.totalbanquetreportRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PAR_ADDITIONALITEMSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_BOOKDETAILSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.foodorder1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.party_receiptsummaryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.party_book_memberwiseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_RECEIPTREPORTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_BOOKDETAILS1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.partyreceipt_viewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_BILLDETAILSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_VIEW_HALLSTATUSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_VIEW_BOOKING_DETAILSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.party_view_hallhistoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_CANCELLATIONHISTORYRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_CANCELLATIONHISTORY1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_CATEGORYHISTORYRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_GROUPHISTORYRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_locationHISTORYRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_MENUGROUPHISTORYRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_MENUHISTORYRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_PURPOSEHISTORYRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_TARIFFHISTORYRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.membermaster_viewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_MEMBERMASTERRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.party_REST_itemwiseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.party_arrangemaster_hdrRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.party_restaurantRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.party_grouping_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_BOOKINGDETAILSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.CREDIT_MEMBER_MPOSTINGRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_BILLINGRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.Party_TariffHdrRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PRATY_VIEW_PARTYADDTIONALCHARGEABLEITEMSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PRATY_VIEW_PARTYHALLDETAILSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PRATY_VIEW_PARTYLIQURITEMSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PRATY_VIEW_PARTYHALLDETAILS1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_BAR_CONSUMPTIONRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_TAR_VIEW1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_VIEW_HALLBOOKINGDETAILSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_RESTITEMSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.VIEW_PARTY_BOOKINGDETAILS1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.partyarrangementfinalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_VIEW_HALLBOOKINGDETAILS_NEWRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.partyreceiptvoucher1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_VIEWHEADRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.partyreceiptvoucherRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_MENURowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_ARRANGERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.party_arrangement_bookRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.party_menu_bookRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_MENRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PAR_ARRANGEMENTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PAR_HDRRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PAR_RECEIPTSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PAR_RECEIPTS_REFUNDRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.partyreceiptreportRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PAR_HALLBOOKINGRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.partyreceiptvoucher_CANCELRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_ITEM_DISCOUNTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.HALLBOOKINGDISCOUNTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.BANQUETFREEZEREPORTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.partyreceiptreport_REFUNDRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.totalbanquetreportRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PAR_ADDITIONALITEMSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_BOOKDETAILSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.foodorder1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.party_receiptsummaryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.party_book_memberwiseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_RECEIPTREPORTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_BOOKDETAILS1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.partyreceipt_viewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1.PARTY_BILLDETAILSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:partymodule.Dataset4.PARTY_PENDINGBILL1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset4.PARTY_ARRDETAILDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset4.par_bar_arrangementDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset4.PARTY_HALLRESERVATIONDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset4.partyCANCEL_viewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset4.PARTY_PENDINGBILLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset4.party_receiptsummaryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset4.VIEW_PARTY_ITEMWISEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset4.PARTY_RECEIPTREPORTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset4.PARTY_PENDINGBILL1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset4.PARTY_ARRDETAILRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset4.par_bar_arrangementRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset4.PARTY_HALLRESERVATIONRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset4.partyCANCEL_viewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset4.PARTY_PENDINGBILLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset4.party_receiptsummaryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset4.VIEW_PARTY_ITEMWISERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset4.PARTY_RECEIPTREPORTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset4.PARTY_PENDINGBILL1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset4.PARTY_ARRDETAILRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset4.par_bar_arrangementRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset4.PARTY_HALLRESERVATIONRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset4.partyCANCEL_viewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset4.PARTY_PENDINGBILLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset4.party_receiptsummaryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset4.VIEW_PARTY_ITEMWISERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset4.PARTY_RECEIPTREPORTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:partymodule.Dataset4TableAdapters.PARTY_PENDINGBILL1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="P:partymodule.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:partymodule.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:partymodule.My.Resources.Resources._111in1024res">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:partymodule.My.Resources.Resources.print">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:partymodule.My.Resources.Resources.save">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:partymodule.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_SUMMARY_SECONDDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_SUMMARY_ADJSUTEDDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_SUMMARY_NOTADJSUTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_VIEW_HALLBOOKINGDETAILSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PAR_BARITEMDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset3.party_itemmasterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PAR_ITEMMASTERDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_ARRANGEMASTERDETDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset3.par_ITEMTYPEMASTERDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset3.VIEW_PARTY_BILLINGDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset3.VIEW_PARTY_BILLING_ACCOUNTSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_ACC_POSTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset3.cateringbillreportDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_ADDITEMSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_ADDITEMS1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_RESERVATIONDETAILDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_RECEIPTREPORTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_RECEIPTREPORT1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_BOOKDETAILSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_SUMMARY_SECONDRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_SUMMARY_ADJSUTEDRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_SUMMARY_NOTADJSUTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_VIEW_HALLBOOKINGDETAILSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PAR_BARITEMRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset3.party_itemmasterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PAR_ITEMMASTERRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_ARRANGEMASTERDETRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset3.par_ITEMTYPEMASTERRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset3.VIEW_PARTY_BILLINGRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset3.VIEW_PARTY_BILLING_ACCOUNTSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_ACC_POSTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset3.cateringbillreportRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_ADDITEMSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_ADDITEMS1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_RESERVATIONDETAILRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_RECEIPTREPORTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_RECEIPTREPORT1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_BOOKDETAILSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_SUMMARY_SECONDRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_SUMMARY_ADJSUTEDRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_SUMMARY_NOTADJSUTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_VIEW_HALLBOOKINGDETAILSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset3.PAR_BARITEMRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset3.party_itemmasterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset3.PAR_ITEMMASTERRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_ARRANGEMASTERDETRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset3.par_ITEMTYPEMASTERRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset3.VIEW_PARTY_BILLINGRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset3.VIEW_PARTY_BILLING_ACCOUNTSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_ACC_POSTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset3.cateringbillreportRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_ADDITEMSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_ADDITEMS1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_RESERVATIONDETAILRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_RECEIPTREPORTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_RECEIPTREPORT1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset3.PARTY_BOOKDETAILSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1.TAX_DETAILS_BOOKINGDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1.VIEW_MTaxDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1.PARTY_RESERVATIONDETAIL_DETDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1.Cancel_BookingDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1.TAX_DETAILS_BOOKINGRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1.VIEW_MTaxRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1.PARTY_RESERVATIONDETAIL_DETRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1.Cancel_BookingRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1.TAX_DETAILS_BOOKINGRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1.VIEW_MTaxRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1.PARTY_RESERVATIONDETAIL_DETRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1.Cancel_BookingRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1TableAdapters.TAX_DETAILS_BOOKINGTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1TableAdapters.VIEW_MTaxTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1TableAdapters.PARTY_RESERVATIONDETAIL_DETTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1TableAdapters.Cancel_BookingTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:partymodule.KGA1314DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(partymodule.KGA1314DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:partymodule.KGA1314DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(partymodule.KGA1314DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:partymodule.KGA1314DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(partymodule.KGA1314DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:partymodule.KGA1314DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:partymodule.KGA1314DataSet1TableAdapters.TableAdapterManager.UpdateAll(partymodule.KGA1314DataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:partymodule.KGA1314DataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:partymodule.Dataset2.foodorder1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.TARIFF_DETDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.party_menu_bookDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.party_restaurantDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.party_rec_DETDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PARTY_KOTDETAILSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.partyreceipt_viewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.party_rec_REFDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.VW_PARTY_DETDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.VIEW_PARTY_CANCELLATIONHISTORYDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.partyreceiptvoucher1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_TARIFFDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_RECEIPTSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_ADDITIONALITEMSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_ARRANGEMENTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_HALLBOOKINGDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_HDRDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_CONSUMPTIONDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PARTY_VIEW_BOOKDETAILSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PRA_ITEMDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PARTY_PENDINGBILLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PARTY_MENU_LISTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.Dataset2.foodorder1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.TARIFF_DETRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.party_menu_bookRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.party_restaurantRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.party_rec_DETRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PARTY_KOTDETAILSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.partyreceipt_viewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.party_rec_REFRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.VW_PARTY_DETRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.VIEW_PARTY_CANCELLATIONHISTORYRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.partyreceiptvoucher1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_TARIFFRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_RECEIPTSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_ADDITIONALITEMSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_ARRANGEMENTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_HALLBOOKINGRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_HDRRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_CONSUMPTIONRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PARTY_VIEW_BOOKDETAILSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PRA_ITEMRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PARTY_PENDINGBILLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.PARTY_MENU_LISTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.Dataset2.foodorder1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.TARIFF_DETRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.party_menu_bookRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.party_restaurantRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.party_rec_DETRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.PARTY_KOTDETAILSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.partyreceipt_viewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.party_rec_REFRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.VW_PARTY_DETRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.VIEW_PARTY_CANCELLATIONHISTORYRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.partyreceiptvoucher1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_TARIFFRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_RECEIPTSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_ADDITIONALITEMSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_ARRANGEMENTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_HALLBOOKINGRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_HDRRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.PAR_CONSUMPTIONRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.PARTY_VIEW_BOOKDETAILSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.PRA_ITEMRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.PARTY_PENDINGBILLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2.PARTY_MENU_LISTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.Dataset2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:partymodule.Dataset2TableAdapters.foodorder1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:partymodule.Dataset2TableAdapters.TARIFF_DETTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:partymodule.Dataset2TableAdapters.party_menu_bookTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:partymodule.Dataset2TableAdapters.party_restaurantTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:partymodule.Dataset2TableAdapters.party_rec_DETTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:partymodule.Dataset2TableAdapters.PARTY_KOTDETAILSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:partymodule.Dataset2TableAdapters.partyreceipt_viewTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:partymodule.Dataset2TableAdapters.party_rec_REFTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:partymodule.Dataset2TableAdapters.VW_PARTY_DETTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:partymodule.Dataset2TableAdapters.VIEW_PARTY_CANCELLATIONHISTORYTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:partymodule.Dataset2TableAdapters.partyreceiptvoucher1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:partymodule.DataSet5.RPT_PARTY_POSDETAILSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.DataSet5.RPT_PARTY_RECEIPTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.DataSet5.PARTY_PENDINGBILLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.DataSet5.RPT_PARTY_HALLDETDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:partymodule.DataSet5.RPT_PARTY_POSDETAILSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.DataSet5.RPT_PARTY_RECEIPTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.DataSet5.PARTY_PENDINGBILLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.DataSet5.RPT_PARTY_HALLDETRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:partymodule.DataSet5.RPT_PARTY_POSDETAILSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.DataSet5.RPT_PARTY_RECEIPTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.DataSet5.PARTY_PENDINGBILLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.DataSet5.RPT_PARTY_HALLDETRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:partymodule.DataSet5">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:partymodule.DataSet5TableAdapters.RPT_PARTY_POSDETAILSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:partymodule.DataSet5TableAdapters.RPT_PARTY_RECEIPTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:partymodule.DataSet5TableAdapters.PARTY_PENDINGBILLTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:partymodule.DataSet5TableAdapters.RPT_PARTY_HALLDETTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:partymodule.DataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(partymodule.DataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:partymodule.DataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(partymodule.DataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:partymodule.DataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(partymodule.DataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:partymodule.DataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:partymodule.DataSet5TableAdapters.TableAdapterManager.UpdateAll(partymodule.DataSet5)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:partymodule.DataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:partymodule.DataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:partymodule.DataSet5TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

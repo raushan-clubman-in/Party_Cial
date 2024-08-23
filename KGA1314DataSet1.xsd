@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="KGA1314DataSet1" targetNamespace="http://tempuri.org/KGA1314DataSet1.xsd" xmlns:mstns="http://tempuri.org/KGA1314DataSet1.xsd" xmlns="http://tempuri.org/KGA1314DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="KGA1314ConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="KGA1314ConnectionString4 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.partymodule.My.MySettings.GlobalReference.Default.KGA1314ConnectionString4" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TAX_DETAILS_BOOKINGTableAdapter" GeneratorDataComponentClassName="TAX_DETAILS_BOOKINGTableAdapter" Name="TAX_DETAILS_BOOKING" UserDataComponentName="TAX_DETAILS_BOOKINGTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="KGA1314ConnectionString4 (MySettings)" DbObjectName="KGA1314.dbo.TAX_DETAILS_BOOKING" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT BOOKINGNO, Taxamount, HALLTAXCODE, TAXDESC, SYMB, HALLTAXPERC FROM dbo.TAX_DETAILS_BOOKING</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="BOOKINGNO" DataSetColumn="BOOKINGNO" />
+              <Mapping SourceColumn="Taxamount" DataSetColumn="Taxamount" />
+              <Mapping SourceColumn="HALLTAXCODE" DataSetColumn="HALLTAXCODE" />
+              <Mapping SourceColumn="TAXDESC" DataSetColumn="TAXDESC" />
+              <Mapping SourceColumn="SYMB" DataSetColumn="SYMB" />
+              <Mapping SourceColumn="HALLTAXPERC" DataSetColumn="HALLTAXPERC" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VIEW_MTaxTableAdapter" GeneratorDataComponentClassName="VIEW_MTaxTableAdapter" Name="VIEW_MTax" UserDataComponentName="VIEW_MTaxTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="KGA1314ConnectionString4 (MySettings)" DbObjectName="KGA1314.dbo.VIEW_MTax" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT PARTYDATE, GUESTNAME, description, BOOKINGNO, Taxamount, HALLTAXCODE, TAXDESC, SYMB, HALLTAXPERC FROM dbo.VIEW_MTax</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="PARTYDATE" DataSetColumn="PARTYDATE" />
+              <Mapping SourceColumn="GUESTNAME" DataSetColumn="GUESTNAME" />
+              <Mapping SourceColumn="description" DataSetColumn="description" />
+              <Mapping SourceColumn="BOOKINGNO" DataSetColumn="BOOKINGNO" />
+              <Mapping SourceColumn="Taxamount" DataSetColumn="Taxamount" />
+              <Mapping SourceColumn="HALLTAXCODE" DataSetColumn="HALLTAXCODE" />
+              <Mapping SourceColumn="TAXDESC" DataSetColumn="TAXDESC" />
+              <Mapping SourceColumn="SYMB" DataSetColumn="SYMB" />
+              <Mapping SourceColumn="HALLTAXPERC" DataSetColumn="HALLTAXPERC" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PARTY_RESERVATIONDETAIL_DETTableAdapter" GeneratorDataComponentClassName="PARTY_RESERVATIONDETAIL_DETTableAdapter" Name="PARTY_RESERVATIONDETAIL_DET" UserDataComponentName="PARTY_RESERVATIONDETAIL_DETTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="KGA1314ConnectionString4 (MySettings)" DbObjectName="KGA1314.dbo.PARTY_RESERVATIONDETAIL_DET" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        BOOKINGNO, PARTYDATE, MCODE, ASSOCIATENAME, GUESTNAME, BOOKINGDATE, DESCRIPTION, FREEZE, HALLNETAMOUNT, DISCOUNT, TOTALAMOUNT, 
+                         HALLCODE, HALLTYPE, HALLTYPEDESC, HRS, a, b, c, d, e, f
+FROM            PARTY_RESERVATIONDETAIL_DET</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="BOOKINGNO" DataSetColumn="BOOKINGNO" />
+              <Mapping SourceColumn="PARTYDATE" DataSetColumn="PARTYDATE" />
+              <Mapping SourceColumn="MCODE" DataSetColumn="MCODE" />
+              <Mapping SourceColumn="ASSOCIATENAME" DataSetColumn="ASSOCIATENAME" />
+              <Mapping SourceColumn="GUESTNAME" DataSetColumn="GUESTNAME" />
+              <Mapping SourceColumn="BOOKINGDATE" DataSetColumn="BOOKINGDATE" />
+              <Mapping SourceColumn="DESCRIPTION" DataSetColumn="DESCRIPTION" />
+              <Mapping SourceColumn="FREEZE" DataSetColumn="FREEZE" />
+              <Mapping SourceColumn="HALLNETAMOUNT" DataSetColumn="HALLNETAMOUNT" />
+              <Mapping SourceColumn="DISCOUNT" DataSetColumn="DISCOUNT" />
+              <Mapping SourceColumn="TOTALAMOUNT" DataSetColumn="TOTALAMOUNT" />
+              <Mapping SourceColumn="HALLCODE" DataSetColumn="HALLCODE" />
+              <Mapping SourceColumn="HALLTYPE" DataSetColumn="HALLTYPE" />
+              <Mapping SourceColumn="HALLTYPEDESC" DataSetColumn="HALLTYPEDESC" />
+              <Mapping SourceColumn="HRS" DataSetColumn="HRS" />
+              <Mapping SourceColumn="a" DataSetColumn="a" />
+              <Mapping SourceColumn="c" DataSetColumn="c" />
+              <Mapping SourceColumn="d" DataSetColumn="d" />
+              <Mapping SourceColumn="b" DataSetColumn="b1" />
+              <Mapping SourceColumn="e" DataSetColumn="e1" />
+              <Mapping SourceColumn="f" DataSetColumn="f1" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Cancel_BookingTableAdapter" GeneratorDataComponentClassName="Cancel_BookingTableAdapter" Name="Cancel_Booking" UserDataComponentName="Cancel_BookingTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="KGA1314ConnectionString4 (MySettings)" DbObjectName="KGA1314.dbo.Cancel_Booking" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[Cancel_Booking] ([BookingNo], [BookingDate], [PartyDate], [CancelDate], [Rent], [CancelAmt], [CancelPer], [CashDep], [Refund]) VALUES (@BookingNo, @BookingDate, @PartyDate, @CancelDate, @Rent, @CancelAmt, @CancelPer, @CashDep, @Refund)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@BookingNo" Precision="10" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="BookingNo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@BookingDate" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="BookingDate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@PartyDate" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="PartyDate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@CancelDate" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="CancelDate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Rent" Precision="10" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="Rent" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@CancelAmt" Precision="10" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="CancelAmt" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@CancelPer" Precision="10" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="CancelPer" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@CashDep" Precision="10" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="CashDep" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Refund" Precision="10" ProviderType="Decimal" Scale="2" Size="0" SourceColumn="Refund" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT BookingNo, BookingDate, PartyDate, CancelDate, Rent, CancelAmt, CancelPer, CashDep, Refund FROM dbo.Cancel_Booking</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="BookingNo" DataSetColumn="BookingNo" />
+              <Mapping SourceColumn="BookingDate" DataSetColumn="BookingDate" />
+              <Mapping SourceColumn="PartyDate" DataSetColumn="PartyDate" />
+              <Mapping SourceColumn="CancelDate" DataSetColumn="CancelDate" />
+              <Mapping SourceColumn="Rent" DataSetColumn="Rent" />
+              <Mapping SourceColumn="CancelAmt" DataSetColumn="CancelAmt" />
+              <Mapping SourceColumn="CancelPer" DataSetColumn="CancelPer" />
+              <Mapping SourceColumn="CashDep" DataSetColumn="CashDep" />
+              <Mapping SourceColumn="Refund" DataSetColumn="Refund" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VIEW_BNQBILLREPORTTableAdapter" GeneratorDataComponentClassName="VIEW_BNQBILLREPORTTableAdapter" Name="VIEW_BNQBILLREPORT" UserDataComponentName="VIEW_BNQBILLREPORTTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="KGA1314ConnectionString4 (MySettings)" DbObjectName="KGA1314.dbo.VIEW_BNQBILLREPORT" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT BOOKINGNO, PARTYDATE, GUESTNAME, MCODE, ASSOCIATENAME, HALLAMOUNT, MENUTOTAL, ARRANGETOTAL, SERTAX, LUXTAX, A, B, C, D FROM dbo.VIEW_BNQBILLREPORT</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="BOOKINGNO" DataSetColumn="BOOKINGNO" />
+              <Mapping SourceColumn="PARTYDATE" DataSetColumn="PARTYDATE" />
+              <Mapping SourceColumn="GUESTNAME" DataSetColumn="GUESTNAME" />
+              <Mapping SourceColumn="MCODE" DataSetColumn="MCODE" />
+              <Mapping SourceColumn="ASSOCIATENAME" DataSetColumn="ASSOCIATENAME" />
+              <Mapping SourceColumn="HALLAMOUNT" DataSetColumn="HALLAMOUNT" />
+              <Mapping SourceColumn="MENUTOTAL" DataSetColumn="MENUTOTAL" />
+              <Mapping SourceColumn="ARRANGETOTAL" DataSetColumn="ARRANGETOTAL" />
+              <Mapping SourceColumn="SERTAX" DataSetColumn="SERTAX" />
+              <Mapping SourceColumn="LUXTAX" DataSetColumn="LUXTAX" />
+              <Mapping SourceColumn="A" DataSetColumn="A" />
+              <Mapping SourceColumn="B" DataSetColumn="B" />
+              <Mapping SourceColumn="C" DataSetColumn="C" />
+              <Mapping SourceColumn="D" DataSetColumn="D" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="KGA1314DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="KGA1314DataSet1" msprop:Generator_UserDSName="KGA1314DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TAX_DETAILS_BOOKING" msprop:Generator_TableClassName="TAX_DETAILS_BOOKINGDataTable" msprop:Generator_TableVarName="tableTAX_DETAILS_BOOKING" msprop:Generator_TablePropName="TAX_DETAILS_BOOKING" msprop:Generator_RowDeletingName="TAX_DETAILS_BOOKINGRowDeleting" msprop:Generator_RowChangingName="TAX_DETAILS_BOOKINGRowChanging" msprop:Generator_RowEvHandlerName="TAX_DETAILS_BOOKINGRowChangeEventHandler" msprop:Generator_RowDeletedName="TAX_DETAILS_BOOKINGRowDeleted" msprop:Generator_UserTableName="TAX_DETAILS_BOOKING" msprop:Generator_RowChangedName="TAX_DETAILS_BOOKINGRowChanged" msprop:Generator_RowEvArgName="TAX_DETAILS_BOOKINGRowChangeEvent" msprop:Generator_RowClassName="TAX_DETAILS_BOOKINGRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BOOKINGNO" msprop:Generator_ColumnVarNameInTable="columnBOOKINGNO" msprop:Generator_ColumnPropNameInRow="BOOKINGNO" msprop:Generator_ColumnPropNameInTable="BOOKINGNOColumn" msprop:Generator_UserColumnName="BOOKINGNO" type="xs:decimal" />
+              <xs:element name="Taxamount" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTaxamount" msprop:Generator_ColumnPropNameInRow="Taxamount" msprop:Generator_ColumnPropNameInTable="TaxamountColumn" msprop:Generator_UserColumnName="Taxamount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="HALLTAXCODE" msprop:Generator_ColumnVarNameInTable="columnHALLTAXCODE" msprop:Generator_ColumnPropNameInRow="HALLTAXCODE" msprop:Generator_ColumnPropNameInTable="HALLTAXCODEColumn" msprop:Generator_UserColumnName="HALLTAXCODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TAXDESC" msprop:Generator_ColumnVarNameInTable="columnTAXDESC" msprop:Generator_ColumnPropNameInRow="TAXDESC" msprop:Generator_ColumnPropNameInTable="TAXDESCColumn" msprop:Generator_UserColumnName="TAXDESC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SYMB" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnSYMB" msprop:Generator_ColumnPropNameInRow="SYMB" msprop:Generator_ColumnPropNameInTable="SYMBColumn" msprop:Generator_UserColumnName="SYMB" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HALLTAXPERC" msprop:Generator_ColumnVarNameInTable="columnHALLTAXPERC" msprop:Generator_ColumnPropNameInRow="HALLTAXPERC" msprop:Generator_ColumnPropNameInTable="HALLTAXPERCColumn" msprop:Generator_UserColumnName="HALLTAXPERC" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VIEW_MTax" msprop:Generator_TableClassName="VIEW_MTaxDataTable" msprop:Generator_TableVarName="tableVIEW_MTax" msprop:Generator_TablePropName="VIEW_MTax" msprop:Generator_RowDeletingName="VIEW_MTaxRowDeleting" msprop:Generator_RowChangingName="VIEW_MTaxRowChanging" msprop:Generator_RowEvHandlerName="VIEW_MTaxRowChangeEventHandler" msprop:Generator_RowDeletedName="VIEW_MTaxRowDeleted" msprop:Generator_UserTableName="VIEW_MTax" msprop:Generator_RowChangedName="VIEW_MTaxRowChanged" msprop:Generator_RowEvArgName="VIEW_MTaxRowChangeEvent" msprop:Generator_RowClassName="VIEW_MTaxRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PARTYDATE" msprop:Generator_ColumnVarNameInTable="columnPARTYDATE" msprop:Generator_ColumnPropNameInRow="PARTYDATE" msprop:Generator_ColumnPropNameInTable="PARTYDATEColumn" msprop:Generator_UserColumnName="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="GUESTNAME" msprop:Generator_ColumnVarNameInTable="columnGUESTNAME" msprop:Generator_ColumnPropNameInRow="GUESTNAME" msprop:Generator_ColumnPropNameInTable="GUESTNAMEColumn" msprop:Generator_UserColumnName="GUESTNAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnPropNameInTable="descriptionColumn" msprop:Generator_UserColumnName="description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BOOKINGNO" msprop:Generator_ColumnVarNameInTable="columnBOOKINGNO" msprop:Generator_ColumnPropNameInRow="BOOKINGNO" msprop:Generator_ColumnPropNameInTable="BOOKINGNOColumn" msprop:Generator_UserColumnName="BOOKINGNO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Taxamount" msprop:Generator_ColumnVarNameInTable="columnTaxamount" msprop:Generator_ColumnPropNameInRow="Taxamount" msprop:Generator_ColumnPropNameInTable="TaxamountColumn" msprop:Generator_UserColumnName="Taxamount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="HALLTAXCODE" msprop:Generator_ColumnVarNameInTable="columnHALLTAXCODE" msprop:Generator_ColumnPropNameInRow="HALLTAXCODE" msprop:Generator_ColumnPropNameInTable="HALLTAXCODEColumn" msprop:Generator_UserColumnName="HALLTAXCODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TAXDESC" msprop:Generator_ColumnVarNameInTable="columnTAXDESC" msprop:Generator_ColumnPropNameInRow="TAXDESC" msprop:Generator_ColumnPropNameInTable="TAXDESCColumn" msprop:Generator_UserColumnName="TAXDESC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SYMB" msprop:Generator_ColumnVarNameInTable="columnSYMB" msprop:Generator_ColumnPropNameInRow="SYMB" msprop:Generator_ColumnPropNameInTable="SYMBColumn" msprop:Generator_UserColumnName="SYMB">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HALLTAXPERC" msprop:Generator_ColumnVarNameInTable="columnHALLTAXPERC" msprop:Generator_ColumnPropNameInRow="HALLTAXPERC" msprop:Generator_ColumnPropNameInTable="HALLTAXPERCColumn" msprop:Generator_UserColumnName="HALLTAXPERC" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PARTY_RESERVATIONDETAIL_DET" msprop:Generator_TableClassName="PARTY_RESERVATIONDETAIL_DETDataTable" msprop:Generator_TableVarName="tablePARTY_RESERVATIONDETAIL_DET" msprop:Generator_RowChangedName="PARTY_RESERVATIONDETAIL_DETRowChanged" msprop:Generator_TablePropName="PARTY_RESERVATIONDETAIL_DET" msprop:Generator_RowDeletingName="PARTY_RESERVATIONDETAIL_DETRowDeleting" msprop:Generator_RowChangingName="PARTY_RESERVATIONDETAIL_DETRowChanging" msprop:Generator_RowEvHandlerName="PARTY_RESERVATIONDETAIL_DETRowChangeEventHandler" msprop:Generator_RowDeletedName="PARTY_RESERVATIONDETAIL_DETRowDeleted" msprop:Generator_RowClassName="PARTY_RESERVATIONDETAIL_DETRow" msprop:Generator_UserTableName="PARTY_RESERVATIONDETAIL_DET" msprop:Generator_RowEvArgName="PARTY_RESERVATIONDETAIL_DETRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BOOKINGNO" msprop:Generator_ColumnVarNameInTable="columnBOOKINGNO" msprop:Generator_ColumnPropNameInRow="BOOKINGNO" msprop:Generator_ColumnPropNameInTable="BOOKINGNOColumn" msprop:Generator_UserColumnName="BOOKINGNO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PARTYDATE" msprop:Generator_ColumnVarNameInTable="columnPARTYDATE" msprop:Generator_ColumnPropNameInRow="PARTYDATE" msprop:Generator_ColumnPropNameInTable="PARTYDATEColumn" msprop:Generator_UserColumnName="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MCODE" msprop:Generator_ColumnVarNameInTable="columnMCODE" msprop:Generator_ColumnPropNameInRow="MCODE" msprop:Generator_ColumnPropNameInTable="MCODEColumn" msprop:Generator_UserColumnName="MCODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ASSOCIATENAME" msprop:Generator_ColumnVarNameInTable="columnASSOCIATENAME" msprop:Generator_ColumnPropNameInRow="ASSOCIATENAME" msprop:Generator_ColumnPropNameInTable="ASSOCIATENAMEColumn" msprop:Generator_UserColumnName="ASSOCIATENAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GUESTNAME" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnGUESTNAME" msprop:Generator_ColumnPropNameInRow="GUESTNAME" msprop:Generator_ColumnPropNameInTable="GUESTNAMEColumn" msprop:Generator_UserColumnName="GUESTNAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BOOKINGDATE" msprop:Generator_ColumnVarNameInTable="columnBOOKINGDATE" msprop:Generator_ColumnPropNameInRow="BOOKINGDATE" msprop:Generator_ColumnPropNameInTable="BOOKINGDATEColumn" msprop:Generator_UserColumnName="BOOKINGDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" msprop:Generator_UserColumnName="DESCRIPTION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FREEZE" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFREEZE" msprop:Generator_ColumnPropNameInRow="FREEZE" msprop:Generator_ColumnPropNameInTable="FREEZEColumn" msprop:Generator_UserColumnName="FREEZE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HALLNETAMOUNT" msprop:Generator_ColumnVarNameInTable="columnHALLNETAMOUNT" msprop:Generator_ColumnPropNameInRow="HALLNETAMOUNT" msprop:Generator_ColumnPropNameInTable="HALLNETAMOUNTColumn" msprop:Generator_UserColumnName="HALLNETAMOUNT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DISCOUNT" msprop:Generator_ColumnVarNameInTable="columnDISCOUNT" msprop:Generator_ColumnPropNameInRow="DISCOUNT" msprop:Generator_ColumnPropNameInTable="DISCOUNTColumn" msprop:Generator_UserColumnName="DISCOUNT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOTALAMOUNT" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTOTALAMOUNT" msprop:Generator_ColumnPropNameInRow="TOTALAMOUNT" msprop:Generator_ColumnPropNameInTable="TOTALAMOUNTColumn" msprop:Generator_UserColumnName="TOTALAMOUNT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="HALLCODE" msprop:Generator_ColumnVarNameInTable="columnHALLCODE" msprop:Generator_ColumnPropNameInRow="HALLCODE" msprop:Generator_ColumnPropNameInTable="HALLCODEColumn" msprop:Generator_UserColumnName="HALLCODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HALLTYPE" msprop:Generator_ColumnVarNameInTable="columnHALLTYPE" msprop:Generator_ColumnPropNameInRow="HALLTYPE" msprop:Generator_ColumnPropNameInTable="HALLTYPEColumn" msprop:Generator_UserColumnName="HALLTYPE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HALLTYPEDESC" msprop:Generator_ColumnVarNameInTable="columnHALLTYPEDESC" msprop:Generator_ColumnPropNameInRow="HALLTYPEDESC" msprop:Generator_ColumnPropNameInTable="HALLTYPEDESCColumn" msprop:Generator_UserColumnName="HALLTYPEDESC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HRS" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnHRS" msprop:Generator_ColumnPropNameInRow="HRS" msprop:Generator_ColumnPropNameInTable="HRSColumn" msprop:Generator_UserColumnName="HRS" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="a" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columna" msprop:Generator_ColumnPropNameInRow="a" msprop:Generator_ColumnPropNameInTable="aColumn" msprop:Generator_UserColumnName="a" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="b" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnb" msprop:Generator_ColumnPropNameInRow="b" msprop:Generator_ColumnPropNameInTable="bColumn" msprop:Generator_UserColumnName="b" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="c" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnc" msprop:Generator_ColumnPropNameInRow="c" msprop:Generator_ColumnPropNameInTable="cColumn" msprop:Generator_UserColumnName="c" type="xs:int" minOccurs="0" />
+              <xs:element name="d" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnd" msprop:Generator_ColumnPropNameInRow="d" msprop:Generator_ColumnPropNameInTable="dColumn" msprop:Generator_UserColumnName="d" type="xs:int" minOccurs="0" />
+              <xs:element name="e" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columne" msprop:Generator_ColumnPropNameInRow="e" msprop:Generator_ColumnPropNameInTable="eColumn" msprop:Generator_UserColumnName="e" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="f" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnf" msprop:Generator_ColumnPropNameInRow="f" msprop:Generator_ColumnPropNameInTable="fColumn" msprop:Generator_UserColumnName="f" type="xs:int" minOccurs="0" />
+              <xs:element name="b1" msdata:ReadOnly="true" msdata:Caption="b" msprop:Generator_ColumnVarNameInTable="columnb1" msprop:Generator_ColumnPropNameInRow="b1" msprop:Generator_ColumnPropNameInTable="b1Column" msprop:Generator_UserColumnName="b1" type="xs:duration" minOccurs="0" />
+              <xs:element name="e1" msdata:ReadOnly="true" msdata:Caption="e" msprop:Generator_ColumnVarNameInTable="columne1" msprop:Generator_ColumnPropNameInRow="e1" msprop:Generator_ColumnPropNameInTable="e1Column" msprop:Generator_UserColumnName="e1" type="xs:duration" minOccurs="0" />
+              <xs:element name="f1" msdata:Caption="f" msprop:Generator_ColumnVarNameInTable="columnf1" msprop:Generator_ColumnPropNameInRow="f1" msprop:Generator_ColumnPropNameInTable="f1Column" msprop:Generator_UserColumnName="f1" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Cancel_Booking" msprop:Generator_TableClassName="Cancel_BookingDataTable" msprop:Generator_TableVarName="tableCancel_Booking" msprop:Generator_TablePropName="Cancel_Booking" msprop:Generator_RowDeletingName="Cancel_BookingRowDeleting" msprop:Generator_RowChangingName="Cancel_BookingRowChanging" msprop:Generator_RowEvHandlerName="Cancel_BookingRowChangeEventHandler" msprop:Generator_RowDeletedName="Cancel_BookingRowDeleted" msprop:Generator_UserTableName="Cancel_Booking" msprop:Generator_RowChangedName="Cancel_BookingRowChanged" msprop:Generator_RowEvArgName="Cancel_BookingRowChangeEvent" msprop:Generator_RowClassName="Cancel_BookingRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BookingNo" msprop:Generator_ColumnVarNameInTable="columnBookingNo" msprop:Generator_ColumnPropNameInRow="BookingNo" msprop:Generator_ColumnPropNameInTable="BookingNoColumn" msprop:Generator_UserColumnName="BookingNo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BookingDate" msprop:Generator_ColumnVarNameInTable="columnBookingDate" msprop:Generator_ColumnPropNameInRow="BookingDate" msprop:Generator_ColumnPropNameInTable="BookingDateColumn" msprop:Generator_UserColumnName="BookingDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PartyDate" msprop:Generator_ColumnVarNameInTable="columnPartyDate" msprop:Generator_ColumnPropNameInRow="PartyDate" msprop:Generator_ColumnPropNameInTable="PartyDateColumn" msprop:Generator_UserColumnName="PartyDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CancelDate" msprop:Generator_ColumnVarNameInTable="columnCancelDate" msprop:Generator_ColumnPropNameInRow="CancelDate" msprop:Generator_ColumnPropNameInTable="CancelDateColumn" msprop:Generator_UserColumnName="CancelDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Rent" msprop:Generator_ColumnVarNameInTable="columnRent" msprop:Generator_ColumnPropNameInRow="Rent" msprop:Generator_ColumnPropNameInTable="RentColumn" msprop:Generator_UserColumnName="Rent" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CancelAmt" msprop:Generator_ColumnVarNameInTable="columnCancelAmt" msprop:Generator_ColumnPropNameInRow="CancelAmt" msprop:Generator_ColumnPropNameInTable="CancelAmtColumn" msprop:Generator_UserColumnName="CancelAmt" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CancelPer" msprop:Generator_ColumnVarNameInTable="columnCancelPer" msprop:Generator_ColumnPropNameInRow="CancelPer" msprop:Generator_ColumnPropNameInTable="CancelPerColumn" msprop:Generator_UserColumnName="CancelPer" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CashDep" msprop:Generator_ColumnVarNameInTable="columnCashDep" msprop:Generator_ColumnPropNameInRow="CashDep" msprop:Generator_ColumnPropNameInTable="CashDepColumn" msprop:Generator_UserColumnName="CashDep" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Refund" msprop:Generator_ColumnVarNameInTable="columnRefund" msprop:Generator_ColumnPropNameInRow="Refund" msprop:Generator_ColumnPropNameInTable="RefundColumn" msprop:Generator_UserColumnName="Refund" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VIEW_BNQBILLREPORT" msprop:Generator_TableClassName="VIEW_BNQBILLREPORTDataTable" msprop:Generator_TableVarName="tableVIEW_BNQBILLREPORT" msprop:Generator_RowChangedName="VIEW_BNQBILLREPORTRowChanged" msprop:Generator_TablePropName="VIEW_BNQBILLREPORT" msprop:Generator_RowDeletingName="VIEW_BNQBILLREPORTRowDeleting" msprop:Generator_RowChangingName="VIEW_BNQBILLREPORTRowChanging" msprop:Generator_RowEvHandlerName="VIEW_BNQBILLREPORTRowChangeEventHandler" msprop:Generator_RowDeletedName="VIEW_BNQBILLREPORTRowDeleted" msprop:Generator_RowClassName="VIEW_BNQBILLREPORTRow" msprop:Generator_UserTableName="VIEW_BNQBILLREPORT" msprop:Generator_RowEvArgName="VIEW_BNQBILLREPORTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BOOKINGNO" msprop:Generator_ColumnVarNameInTable="columnBOOKINGNO" msprop:Generator_ColumnPropNameInRow="BOOKINGNO" msprop:Generator_ColumnPropNameInTable="BOOKINGNOColumn" msprop:Generator_UserColumnName="BOOKINGNO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PARTYDATE" msprop:Generator_ColumnVarNameInTable="columnPARTYDATE" msprop:Generator_ColumnPropNameInRow="PARTYDATE" msprop:Generator_ColumnPropNameInTable="PARTYDATEColumn" msprop:Generator_UserColumnName="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="GUESTNAME" msprop:Generator_ColumnVarNameInTable="columnGUESTNAME" msprop:Generator_ColumnPropNameInRow="GUESTNAME" msprop:Generator_ColumnPropNameInTable="GUESTNAMEColumn" msprop:Generator_UserColumnName="GUESTNAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MCODE" msprop:Generator_ColumnVarNameInTable="columnMCODE" msprop:Generator_ColumnPropNameInRow="MCODE" msprop:Generator_ColumnPropNameInTable="MCODEColumn" msprop:Generator_UserColumnName="MCODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ASSOCIATENAME" msprop:Generator_ColumnVarNameInTable="columnASSOCIATENAME" msprop:Generator_ColumnPropNameInRow="ASSOCIATENAME" msprop:Generator_ColumnPropNameInTable="ASSOCIATENAMEColumn" msprop:Generator_UserColumnName="ASSOCIATENAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HALLAMOUNT" msprop:Generator_ColumnVarNameInTable="columnHALLAMOUNT" msprop:Generator_ColumnPropNameInRow="HALLAMOUNT" msprop:Generator_ColumnPropNameInTable="HALLAMOUNTColumn" msprop:Generator_UserColumnName="HALLAMOUNT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MENUTOTAL" msprop:Generator_ColumnVarNameInTable="columnMENUTOTAL" msprop:Generator_ColumnPropNameInRow="MENUTOTAL" msprop:Generator_ColumnPropNameInTable="MENUTOTALColumn" msprop:Generator_UserColumnName="MENUTOTAL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ARRANGETOTAL" msprop:Generator_ColumnVarNameInTable="columnARRANGETOTAL" msprop:Generator_ColumnPropNameInRow="ARRANGETOTAL" msprop:Generator_ColumnPropNameInTable="ARRANGETOTALColumn" msprop:Generator_UserColumnName="ARRANGETOTAL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SERTAX" msprop:Generator_ColumnVarNameInTable="columnSERTAX" msprop:Generator_ColumnPropNameInRow="SERTAX" msprop:Generator_ColumnPropNameInTable="SERTAXColumn" msprop:Generator_UserColumnName="SERTAX" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LUXTAX" msprop:Generator_ColumnVarNameInTable="columnLUXTAX" msprop:Generator_ColumnPropNameInRow="LUXTAX" msprop:Generator_ColumnPropNameInTable="LUXTAXColumn" msprop:Generator_UserColumnName="LUXTAX" type="xs:decimal" minOccurs="0" />
+              <xs:element name="A" msprop:Generator_ColumnVarNameInTable="columnA" msprop:Generator_ColumnPropNameInRow="A" msprop:Generator_ColumnPropNameInTable="AColumn" msprop:Generator_UserColumnName="A">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="B" msprop:Generator_ColumnVarNameInTable="columnB" msprop:Generator_ColumnPropNameInRow="B" msprop:Generator_ColumnPropNameInTable="BColumn" msprop:Generator_UserColumnName="B">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="C" msprop:Generator_ColumnVarNameInTable="columnC" msprop:Generator_ColumnPropNameInRow="C" msprop:Generator_ColumnPropNameInTable="CColumn" msprop:Generator_UserColumnName="C" type="xs:int" />
+              <xs:element name="D" msprop:Generator_ColumnVarNameInTable="columnD" msprop:Generator_ColumnPropNameInRow="D" msprop:Generator_ColumnPropNameInTable="DColumn" msprop:Generator_UserColumnName="D" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

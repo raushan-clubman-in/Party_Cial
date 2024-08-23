@@ -1,0 +1,2101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{970BC207-3541-4880-B593-8E167920277E}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Customise.ico.ico</ApplicationIcon>
+    <AssemblyKeyContainerName />
+    <AssemblyName>SpecialParty</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>partymodule</RootNamespace>
+    <StartupObject>partymodule.Loginform</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>http://localhost/SpecialParty/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SpecialParty.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SpecialParty.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="msdatasrc" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.IO" />
+    <Import Include="System.Reflection" />
+    <Import Include="System.Windows" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AUTHORISATION.designer.vb">
+      <DependentUpon>AUTHORISATION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AUTHORISATION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Crystal\CANbooking.vb">
+      <DependentUpon>CANbooking.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\CANBOOKRECEIPT.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CANBOOKRECEIPT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal\CANreceipt.vb">
+      <DependentUpon>CANreceipt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\CANreceipt1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CANreceipt1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal\cateringbillreport.vb">
+      <DependentUpon>cateringbillreport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\cathhallbookform.vb">
+      <DependentUpon>cathhallbookform.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\consum1.vb">
+      <DependentUpon>consum1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\partreceiptVoucher_TRADE.vb">
+      <DependentUpon>partreceiptVoucher_TRADE.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal\CRPT_PAR_BILLING_TRADE.vb">
+      <DependentUpon>CRPT_PAR_BILLING_TRADE.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal\CRPT_PAR_BILLING_CIAL.vb">
+      <DependentUpon>CRPT_PAR_BILLING_CIAL.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal\partreceiptVoucher_CIAL.vb">
+      <DependentUpon>partreceiptVoucher_CIAL.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal\totalbanquetreport_GUST_New.vb">
+      <DependentUpon>totalbanquetreport_GUST_New.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal\PARTY_RESERVATIONDETAIL1.vb">
+      <DependentUpon>PARTY_RESERVATIONDETAIL1.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal\partybookingDETDET1.vb">
+      <DependentUpon>partybookingDETDET1.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal\CRPT_PAR_BILLING_Cancel1.vb">
+      <DependentUpon>CRPT_PAR_BILLING_Cancel1.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal\CRPT_PAR_BILLING1.vb">
+      <DependentUpon>CRPT_PAR_BILLING1.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal\FOODORDERREPORT11.vb">
+      <DependentUpon>FOODORDERREPORT1.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal\partreceipt1.vb">
+      <DependentUpon>partreceipt1.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal\partreceiptVoucher1.vb">
+      <DependentUpon>partreceiptVoucher1.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal\Crpt_CancelDetail.vb">
+      <DependentUpon>Crpt_CancelDetail.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal\CRPT_PAR_BILLING_Cancel.vb">
+      <DependentUpon>CRPT_PAR_BILLING_Cancel.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal\PARTY_RESERVATIONDETAIL_Trade.vb">
+      <DependentUpon>PARTY_RESERVATIONDETAIL_Trade.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crystal\CPARTY_ARRANGEMASTER_HDR.vb">
+      <DependentUpon>CPARTY_ARRANGEMASTER_HDR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\crptbilling.vb">
+      <DependentUpon>crptbilling.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\Crptbillingform.vb">
+      <DependentUpon>Crptbillingform.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\crptgroupmaster.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptgroupmaster.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal\CrptITEMTYPEMASTER.vb">
+      <DependentUpon>CrptITEMTYPEMASTER.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\crptPARTY_BOOKINGDETAILS.vb">
+      <DependentUpon>crptPARTY_BOOKINGDETAILS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\crptPARTY_BOOKINGDETAILS1.vb">
+      <DependentUpon>crptPARTY_BOOKINGDETAILS1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\crptparty_hallstatus.vb">
+      <DependentUpon>crptparty_hallstatus.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\CrptPARTY_MENU_LIST.vb">
+      <DependentUpon>CrptPARTY_MENU_LIST.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\CrptPARTY_VIEW_HALLBOOKINGDETAILS.vb">
+      <DependentUpon>CrptPARTY_VIEW_HALLBOOKINGDETAILS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\CrptPARTY_VIEW_HALLBOOKINGDETAILS1.vb">
+      <DependentUpon>CrptPARTY_VIEW_HALLBOOKINGDETAILS1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\CrptPARTY_VIEW_HALLBOOKINGDETAILScharge.vb">
+      <DependentUpon>CrptPARTY_VIEW_HALLBOOKINGDETAILScharge.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\crptsubgroupmaster.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crptsubgroupmaster.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal\Crptuommaster.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Crptuommaster.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal\Crpt_Mangal_Tax.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Crpt_Mangal_Tax.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal\CRPT_PAR_BILLING.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRPT_PAR_BILLING.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal\CRT_SESSIONMASTER.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRT_SESSIONMASTER.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal\CrystalReport1.vb">
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\Dataset1.designer.vb">
+      <DependentUpon>Dataset1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Crystal\Dataset1.vb">
+      <DependentUpon>Dataset1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Crystal\Dataset2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dataset2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Crystal\Dataset2.vb">
+      <DependentUpon>Dataset2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Crystal\Dataset3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dataset3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Crystal\Dataset4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dataset4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Crystal\Dataset4.vb">
+      <DependentUpon>Dataset4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Crystal\DataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Crystal\DataSet5.vb">
+      <DependentUpon>DataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Crystal\FINALBILLINGREPORT.vb">
+      <DependentUpon>FINALBILLINGREPORT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\FOODOERDERREPORT.vb">
+      <DependentUpon>FOODOERDERREPORT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\FOODORDERREPORT1.vb">
+      <DependentUpon>FOODORDERREPORT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\MAINTAIN.vb">
+      <DependentUpon>MAINTAIN.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\MAINTAINANCEA.vb">
+      <DependentUpon>MAINTAINANCEA.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\MENUORDERASCA.vb">
+      <DependentUpon>MENUORDERASCA.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\MENUORDERCATH.vb">
+      <DependentUpon>MENUORDERCATH.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\partbilling.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>partbilling.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal\partreceipt.vb">
+      <DependentUpon>partreceipt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\partreceiptVoucher.vb">
+      <DependentUpon>partreceiptVoucher.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\partyarrangementfinal.vb">
+      <DependentUpon>partyarrangementfinal.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\partyarrangementitem.vb">
+      <DependentUpon>partyarrangementitem.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\partybookingdetails1.vb">
+      <DependentUpon>partybookingdetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\partybookingDETDET.vb">
+      <DependentUpon>partybookingDETDET.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\partyfinalbillreportoverall.vb">
+      <DependentUpon>partyfinalbillreportoverall.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\partyreceiptreport.vb">
+      <DependentUpon>partyreceiptreport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\partyreceiptreportREFUND.vb">
+      <DependentUpon>partyreceiptreportREFUND.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\partyreceiptreportREFUND_GUST.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>partyreceiptreportREFUND_GUST.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal\partyreceiptreport_gust.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>partyreceiptreport_gust.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal\partyreceiptvoucher_CANCEL.vb">
+      <DependentUpon>partyreceiptvoucher_CANCEL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\PARTYTARIFF.vb">
+      <DependentUpon>PARTYTARIFF.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\PARTY_ACC_POST.vb">
+      <DependentUpon>PARTY_ACC_POST.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\PARTY_ADDITEMS.vb">
+      <DependentUpon>PARTY_ADDITEMS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\party_barcon.vb">
+      <DependentUpon>party_barcon.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\PARTY_BAR_CONSUMPTION.vb">
+      <DependentUpon>PARTY_BAR_CONSUMPTION.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\PARTY_BILLDETAILS.vb">
+      <DependentUpon>PARTY_BILLDETAILS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\party_book_memberwise1.vb">
+      <DependentUpon>party_book_memberwise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\party_book_memberwise_GUST.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>party_book_memberwise_GUST.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal\PARTY_CATH.vb">
+      <DependentUpon>PARTY_CATH.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\PARTY_ITEMDETAILS.vb">
+      <DependentUpon>PARTY_ITEMDETAILS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\PARTY_ITEMDETAILS_gust.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PARTY_ITEMDETAILS_gust.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal\party_ITEMWISE.vb">
+      <DependentUpon>party_ITEMWISE.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\party_ITEMWISESALES1.vb">
+      <DependentUpon>party_ITEMWISESALES.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\PARTY_MAINTAIN.vb">
+      <DependentUpon>PARTY_MAINTAIN.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\party_man.vb">
+      <DependentUpon>party_man.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\PARTY_RESERVATIONDETAIL.vb">
+      <DependentUpon>PARTY_RESERVATIONDETAIL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\PARTY_RESERVATIONDETAILTEST.vb">
+      <DependentUpon>PARTY_RESERVATIONDETAILTEST.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\PARTY_VIEW_BOOKDETAILS.vb">
+      <DependentUpon>PARTY_VIEW_BOOKDETAILS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\PARTY_VIEW_RESERVATIONS2.vb">
+      <DependentUpon>PARTY_VIEW_RESERVATIONS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\PAR_ADDITIONALITEMS.vb">
+      <DependentUpon>PAR_ADDITIONALITEMS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\par_bar_exp.vb">
+      <DependentUpon>par_bar_exp.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\PENDINGBILL.vb">
+      <DependentUpon>PENDINGBILL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\PENDINGBILL_GUST.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PENDINGBILL_GUST.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal\recsummaryreport1.vb">
+      <DependentUpon>recsummaryreport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\recsummaryreport_GUST.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>recsummaryreport_GUST.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal\Rpt_AccountsGlAccountMaster.vb">
+      <DependentUpon>Rpt_AccountsGlAccountMaster.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_ADDTIONALITEMMASTER.vb">
+      <DependentUpon>RPT_ADDTIONALITEMMASTER.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_ARRANGEMENT.vb">
+      <DependentUpon>RPT_ARRANGEMENT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_BOOKING .vb">
+      <DependentUpon>RPT_BOOKING .rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_BOOKING_accounts.vb">
+      <DependentUpon>RPT_BOOKING_accounts.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_BOOKING_DETAILS.vb">
+      <DependentUpon>RPT_BOOKING_DETAILS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_BOOKING_itemwise1.vb">
+      <DependentUpon>RPT_BOOKING_itemwise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_BOOKING_REGISTER.vb">
+      <DependentUpon>RPT_BOOKING_REGISTER.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_HALLSTATUS.vb">
+      <DependentUpon>RPT_HALLSTATUS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_HEADMASTER.vb">
+      <DependentUpon>RPT_HEADMASTER.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_MAS_CANCELLATIONHISTORY.vb">
+      <DependentUpon>RPT_MAS_CANCELLATIONHISTORY.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_MAS_CATEGORYHISTORY1.vb">
+      <DependentUpon>RPT_MAS_CATEGORYHISTORY.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_MAS_GROUPHISTORY1.vb">
+      <DependentUpon>RPT_MAS_GROUPHISTORY.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_MAS_HALLHISTORY.vb">
+      <DependentUpon>RPT_MAS_HALLHISTORY.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_MAS_LOCATIONHISTORY1.vb">
+      <DependentUpon>RPT_MAS_LOCATIONHISTORY.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_MAS_MENUGROUPHISTORY1.vb">
+      <DependentUpon>RPT_MAS_MENUGROUPHISTORY.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_MAS_MENUHISTORY1.vb">
+      <DependentUpon>RPT_MAS_MENUHISTORY.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_MAS_PURPOSEHISTORY1.vb">
+      <DependentUpon>RPT_MAS_PURPOSEHISTORY.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_MAS_TARIFFHISTORY1.vb">
+      <DependentUpon>RPT_MAS_TARIFFHISTORY.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_MAS_UOMHISTORY1.vb">
+      <DependentUpon>RPT_MAS_UOMHISTORY.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\Rpt_PurchaseNonProductNote.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_PurchaseNonProductNote.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal\RPT_RECEIPTREGISTER.vb">
+      <DependentUpon>RPT_RECEIPTREGISTER.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\RPT_VOID_REGISTER1.vb">
+      <DependentUpon>RPT_VOID_REGISTER1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\Taxtypemaster.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Taxtypemaster.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal\totalbanquetreport.vb">
+      <DependentUpon>totalbanquetreport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Crystal\totalbanquetreport_GUST.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>totalbanquetreport_GUST.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="designer\CompanyList1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="designer\FrontScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="designer\Memberhelp1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalClass.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="globalFunction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GlobalVariables.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="KGA1314DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KGA1314DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KGA1314DataSet1.vb">
+      <DependentUpon>KGA1314DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ListOperattion .vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListOperattion1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LIST_OPERATION1.designer.vb">
+      <DependentUpon>LIST_OPERATION1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LIST_OPERATION1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login\Loginform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login\PartyMDI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login\ReportDesigner.vb" />
+    <Compile Include="login\shutdown.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login\TEST.Designer.vb">
+      <DependentUpon>TEST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login\TEST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login\Welcome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModules.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\ARRANGEMENT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\CANCELTYPE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FRM_MKGA_CATERER.Designer.vb">
+      <DependentUpon>FRM_MKGA_CATERER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FRM_MKGA_CATERER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FRM_MKGA_Purpose.designer.vb">
+      <DependentUpon>FRM_MKGA_Purpose.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FRM_MKGA_Purpose.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FRM_MKGA_GroupMaster.designer.vb">
+      <DependentUpon>FRM_MKGA_GroupMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FRM_MKGA_GroupMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FRM_MKGA_HolidayMaster.designer.vb">
+      <DependentUpon>FRM_MKGA_HolidayMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FRM_MKGA_HolidayMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FRM_MKGA_ItemType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FRM_MKGA_Subgroupmaster.designer.vb">
+      <DependentUpon>FRM_MKGA_Subgroupmaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FRM_MKGA_Subgroupmaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\FRM_MKGA_Uommaster.designer.vb">
+      <DependentUpon>FRM_MKGA_Uommaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\FRM_MKGA_Uommaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\GLACCOUNTMASTER_Others.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\GroupMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\GR_PAYMODEALLOCATION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\HallMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\HALLTYPE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\ItemType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\Menumast.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\PARTYHEADMASTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\PARTYSETUP.Designer.vb">
+      <DependentUpon>PARTYSETUP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\PARTYSETUP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\PTY_CANCELLATIONMASTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\PTY_CATEGORYMASTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\PTY_HALLMASTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\PTY_SUBGROUPMASTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\PTY_HALLMASTER1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\PTY_LOCMASTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\PTY_MENUGROUP_MASTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\PTY_GROUPMASTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\PTY_PURPOSEMASTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\PTY_TARIFFMASTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\ReportViwer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\UOMMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\Version_Master.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ReportDesigner.designer.vb">
+      <DependentUpon>ReportDesigner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportDesigner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportsclass\Bookingstatus.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reportsclass\booking_billregister.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reportsclass\CUSTOMER_REPORTS.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reportsclass\HallPending.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reportsclass\HALL_AVAILABLE.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reportsclass\Party_Billing.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reportsclass\PARTY_CANCELBILLING.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reports\BANQUETREPORT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\BILLPENDING.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\BILLREGISTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\consumerpt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\CUSTOMERREPORT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\DATEWISEPARTY BILLREGISTER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\EXPORT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\exportexcel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmItemwise_NEW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\HALLAVAILABLITY.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ITEMSALES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ITEMWISESALES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Itemwise_sale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\MAINTAINANCE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ReceiptRegister.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\RESERVATION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ROOMWISE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\TaxReport.Designer.vb">
+      <DependentUpon>TaxReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\TaxReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Voidstatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resizer1.vb" />
+    <Compile Include="Transaction\ACCOUNTSITEMTAGGING.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\checkavailability.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\HALLDISPLAY.Designer.vb">
+      <DependentUpon>HALLDISPLAY.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\HALLDISPLAY.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\Hallstatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\NonProductPurchase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\PARTYBilling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\PARTYBOOKING.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\PARTYCANCEL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\partyconsumption.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\Partyreciptentry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\PARTYVIEWBOOKING.vb">
+      <DependentUpon>PARTYVIEWBOOKING.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Transaction\Receiptentry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\SETTLEMENT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\Smartkotentry.designer.vb">
+      <DependentUpon>Smartkotentry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\Smartkotentry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWDET.designer.vb">
+      <DependentUpon>VIEWDET.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWDET.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWHDR.designer.vb">
+      <DependentUpon>VIEWHDR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWHDR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Content Include="Crystal\Dataset4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dataset4.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Customise.ico.ico" />
+    <None Include="Resources\view.gif" />
+    <None Include="Resources\images.jpg" />
+    <None Include="Resources\excel.gif" />
+    <None Include="Resources\Delete1.gif" />
+    <None Include="Resources\Clear.gif" />
+    <None Include="Resources\BackgroundImage %281%29.jpg" />
+    <None Include="Resources\Exit.gif" />
+    <None Include="Resources\111.jpg" />
+    <None Include="Resources\print.gif" />
+    <None Include="Resources\save.gif" />
+    <None Include="Resources\111in1024res.jpg" />
+    <EmbeddedResource Include="AUTHORISATION.resx">
+      <DependentUpon>AUTHORISATION.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\CANbooking.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CANbooking.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\CANBOOKRECEIPT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CANBOOKRECEIPT.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\CANreceipt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CANreceipt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\CANreceipt1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CANreceipt1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\cateringbillreport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cateringbillreport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\cathhallbookform.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cathhallbookform.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\consum1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>consum1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\partreceiptVoucher_TRADE.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>partreceiptVoucher_TRADE.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\CRPT_PAR_BILLING_TRADE.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPT_PAR_BILLING_TRADE.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\CRPT_PAR_BILLING_CIAL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPT_PAR_BILLING_CIAL.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\partreceiptVoucher_CIAL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>partreceiptVoucher_CIAL.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\totalbanquetreport_GUST_New.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>totalbanquetreport_GUST_New.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\PARTY_RESERVATIONDETAIL1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PARTY_RESERVATIONDETAIL1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\partybookingDETDET1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>partybookingDETDET1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\CRPT_PAR_BILLING_Cancel1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPT_PAR_BILLING_Cancel1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\CRPT_PAR_BILLING1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPT_PAR_BILLING1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\FOODORDERREPORT1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FOODORDERREPORT11.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\partreceipt1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>partreceipt1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\partreceiptVoucher1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>partreceiptVoucher1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\Crpt_CancelDetail.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Crpt_CancelDetail.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\CRPT_PAR_BILLING_Cancel.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPT_PAR_BILLING_Cancel.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\PARTY_RESERVATIONDETAIL_Trade.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PARTY_RESERVATIONDETAIL_Trade.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\CPARTY_ARRANGEMASTER_HDR.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CPARTY_ARRANGEMASTER_HDR.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\crptbilling.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptbilling.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\Crptbillingform.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Crptbillingform.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\crptgroupmaster.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptgroupmaster.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\CrptITEMTYPEMASTER.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrptITEMTYPEMASTER.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\crptPARTY_BOOKINGDETAILS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptPARTY_BOOKINGDETAILS.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\crptPARTY_BOOKINGDETAILS1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptPARTY_BOOKINGDETAILS1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\crptparty_hallstatus.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptparty_hallstatus.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\CrptPARTY_MENU_LIST.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrptPARTY_MENU_LIST.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\CrptPARTY_VIEW_HALLBOOKINGDETAILS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrptPARTY_VIEW_HALLBOOKINGDETAILS.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\CrptPARTY_VIEW_HALLBOOKINGDETAILS1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrptPARTY_VIEW_HALLBOOKINGDETAILS1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\CrptPARTY_VIEW_HALLBOOKINGDETAILScharge.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrptPARTY_VIEW_HALLBOOKINGDETAILScharge.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\crptsubgroupmaster.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crptsubgroupmaster.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\Crptuommaster.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Crptuommaster.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\Crpt_Mangal_Tax.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Crpt_Mangal_Tax.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\CRPT_PAR_BILLING.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPT_PAR_BILLING.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\CRT_SESSIONMASTER.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRT_SESSIONMASTER.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\FINALBILLINGREPORT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FINALBILLINGREPORT.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\FOODOERDERREPORT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FOODOERDERREPORT.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\FOODORDERREPORT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FOODORDERREPORT1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\MAINTAIN.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MAINTAIN.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\MAINTAINANCEA.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MAINTAINANCEA.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\MENUORDERASCA.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MENUORDERASCA.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\MENUORDERCATH.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MENUORDERCATH.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\partbilling.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>partbilling.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\partreceipt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>partreceipt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\partreceiptVoucher.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>partreceiptVoucher.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\partyarrangementfinal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>partyarrangementfinal.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\partyarrangementitem.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>partyarrangementitem.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\partybookingdetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>partybookingdetails1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\partybookingDETDET.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>partybookingDETDET.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\partyfinalbillreportoverall.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>partyfinalbillreportoverall.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\partyreceiptreport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>partyreceiptreport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\partyreceiptreportREFUND.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>partyreceiptreportREFUND.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\partyreceiptreportREFUND_GUST.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>partyreceiptreportREFUND_GUST.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\partyreceiptreport_gust.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>partyreceiptreport_gust.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\partyreceiptvoucher_CANCEL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>partyreceiptvoucher_CANCEL.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\PARTYTARIFF.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PARTYTARIFF.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\PARTY_ACC_POST.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PARTY_ACC_POST.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\PARTY_ADDITEMS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PARTY_ADDITEMS.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\party_barcon.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>party_barcon.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\PARTY_BAR_CONSUMPTION.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PARTY_BAR_CONSUMPTION.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\PARTY_BILLDETAILS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PARTY_BILLDETAILS.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\party_book_memberwise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>party_book_memberwise1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\party_book_memberwise_GUST.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>party_book_memberwise_GUST.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\PARTY_CATH.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PARTY_CATH.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\PARTY_ITEMDETAILS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PARTY_ITEMDETAILS.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\PARTY_ITEMDETAILS_gust.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PARTY_ITEMDETAILS_gust.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\party_ITEMWISE.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>party_ITEMWISE.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\party_ITEMWISESALES.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>party_ITEMWISESALES1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\PARTY_MAINTAIN.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PARTY_MAINTAIN.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\party_man.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>party_man.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\PARTY_RESERVATIONDETAIL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PARTY_RESERVATIONDETAIL.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\PARTY_RESERVATIONDETAILTEST.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PARTY_RESERVATIONDETAILTEST.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\PARTY_VIEW_BOOKDETAILS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PARTY_VIEW_BOOKDETAILS.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\PARTY_VIEW_RESERVATIONS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PARTY_VIEW_RESERVATIONS2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\PAR_ADDITIONALITEMS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PAR_ADDITIONALITEMS.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\par_bar_exp.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>par_bar_exp.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\PENDINGBILL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PENDINGBILL.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\PENDINGBILL_GUST.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PENDINGBILL_GUST.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\recsummaryreport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>recsummaryreport1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\recsummaryreport_GUST.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>recsummaryreport_GUST.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\Rpt_AccountsGlAccountMaster.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_AccountsGlAccountMaster.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_ADDTIONALITEMMASTER.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_ADDTIONALITEMMASTER.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_ARRANGEMENT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_ARRANGEMENT.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_BOOKING .rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_BOOKING .vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_BOOKING_accounts.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_BOOKING_accounts.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_BOOKING_DETAILS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_BOOKING_DETAILS.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_BOOKING_itemwise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_BOOKING_itemwise1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_BOOKING_REGISTER.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_BOOKING_REGISTER.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_HALLSTATUS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_HALLSTATUS.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_HEADMASTER.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_HEADMASTER.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_MAS_CANCELLATIONHISTORY.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MAS_CANCELLATIONHISTORY.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_MAS_CATEGORYHISTORY.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MAS_CATEGORYHISTORY1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_MAS_GROUPHISTORY.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MAS_GROUPHISTORY1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_MAS_HALLHISTORY.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MAS_HALLHISTORY.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_MAS_LOCATIONHISTORY.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MAS_LOCATIONHISTORY1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_MAS_MENUGROUPHISTORY.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MAS_MENUGROUPHISTORY1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_MAS_MENUHISTORY.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MAS_MENUHISTORY1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_MAS_PURPOSEHISTORY.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MAS_PURPOSEHISTORY1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_MAS_TARIFFHISTORY.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MAS_TARIFFHISTORY1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_MAS_UOMHISTORY.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_MAS_UOMHISTORY1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\Rpt_PurchaseNonProductNote.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_PurchaseNonProductNote.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_RECEIPTREGISTER.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_RECEIPTREGISTER.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\RPT_VOID_REGISTER1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RPT_VOID_REGISTER1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\Taxtypemaster.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Taxtypemaster.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\totalbanquetreport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>totalbanquetreport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\totalbanquetreport_GUST.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>totalbanquetreport_GUST.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="designer\CompanyList1.resx">
+      <DependentUpon>CompanyList1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="designer\FrontScreen.resx">
+      <DependentUpon>FrontScreen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="designer\Memberhelp1.resx">
+      <DependentUpon>Memberhelp1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListOperattion .resx">
+      <DependentUpon>ListOperattion .vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListOperattion1.resx">
+      <DependentUpon>ListOperattion1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LIST_OPERATION1.resx">
+      <DependentUpon>LIST_OPERATION1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login\Loginform.resx">
+      <DependentUpon>Loginform.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login\PartyMDI.resx">
+      <DependentUpon>PartyMDI.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login\shutdown.resx">
+      <DependentUpon>shutdown.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login\TEST.resx">
+      <DependentUpon>TEST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login\Welcome.resx">
+      <DependentUpon>Welcome.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\ARRANGEMENT.resx">
+      <DependentUpon>ARRANGEMENT.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\CANCELTYPE.resx">
+      <DependentUpon>CANCELTYPE.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FRM_MKGA_CATERER.resx">
+      <DependentUpon>FRM_MKGA_CATERER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FRM_MKGA_Purpose.resx">
+      <DependentUpon>FRM_MKGA_Purpose.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FRM_MKGA_GroupMaster.resx">
+      <DependentUpon>FRM_MKGA_GroupMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FRM_MKGA_HolidayMaster.resx">
+      <DependentUpon>FRM_MKGA_HolidayMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FRM_MKGA_ItemType.resx">
+      <DependentUpon>FRM_MKGA_ItemType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FRM_MKGA_Subgroupmaster.resx">
+      <DependentUpon>FRM_MKGA_Subgroupmaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\FRM_MKGA_Uommaster.resx">
+      <DependentUpon>FRM_MKGA_Uommaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\GLACCOUNTMASTER_Others.resx">
+      <DependentUpon>GLACCOUNTMASTER_Others.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\GroupMaster.resx">
+      <DependentUpon>GroupMaster.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\GR_PAYMODEALLOCATION.resx">
+      <DependentUpon>GR_PAYMODEALLOCATION.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\HallMaster.resx">
+      <DependentUpon>HallMaster.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\HALLTYPE.resx">
+      <DependentUpon>HALLTYPE.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\ItemType.resx">
+      <DependentUpon>ItemType.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Menumast.resx">
+      <DependentUpon>Menumast.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\PARTYHEADMASTER.resx">
+      <DependentUpon>PARTYHEADMASTER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\PARTYSETUP.resx">
+      <DependentUpon>PARTYSETUP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\PTY_CANCELLATIONMASTER.resx">
+      <DependentUpon>PTY_CANCELLATIONMASTER.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\PTY_CATEGORYMASTER.resx">
+      <DependentUpon>PTY_CATEGORYMASTER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\PTY_HALLMASTER.resx">
+      <DependentUpon>PTY_HALLMASTER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\PTY_SUBGROUPMASTER.resx">
+      <DependentUpon>PTY_SUBGROUPMASTER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\PTY_HALLMASTER1.resx">
+      <DependentUpon>PTY_HALLMASTER1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\PTY_LOCMASTER.resx">
+      <DependentUpon>PTY_LOCMASTER.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\PTY_MENUGROUP_MASTER.resx">
+      <DependentUpon>PTY_MENUGROUP_MASTER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\PTY_GROUPMASTER.resx">
+      <DependentUpon>PTY_GROUPMASTER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\PTY_PURPOSEMASTER.resx">
+      <DependentUpon>PTY_PURPOSEMASTER.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\PTY_TARIFFMASTER.resx">
+      <DependentUpon>PTY_TARIFFMASTER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\ReportViwer.resx">
+      <DependentUpon>ReportViwer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\UOMMaster.resx">
+      <DependentUpon>UOMMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Version_Master.resx">
+      <DependentUpon>Version_Master.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportDesigner.resx">
+      <DependentUpon>ReportDesigner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BANQUETREPORT.resx">
+      <DependentUpon>BANQUETREPORT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BILLPENDING.resx">
+      <DependentUpon>BILLPENDING.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BILLREGISTER.resx">
+      <DependentUpon>BILLREGISTER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\consumerpt.resx">
+      <DependentUpon>consumerpt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CUSTOMERREPORT.resx">
+      <DependentUpon>CUSTOMERREPORT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DATEWISEPARTY BILLREGISTER.resx">
+      <DependentUpon>DATEWISEPARTY BILLREGISTER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\EXPORT.resx">
+      <DependentUpon>EXPORT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\exportexcel.resx">
+      <DependentUpon>exportexcel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmItemwise_NEW.resx">
+      <DependentUpon>frmItemwise_NEW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\HALLAVAILABLITY.resx">
+      <DependentUpon>HALLAVAILABLITY.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ITEMSALES.resx">
+      <DependentUpon>ITEMSALES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ITEMWISESALES.resx">
+      <DependentUpon>ITEMWISESALES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Itemwise_sale.resx">
+      <DependentUpon>Itemwise_sale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MAINTAINANCE.resx">
+      <DependentUpon>MAINTAINANCE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ReceiptRegister.resx">
+      <DependentUpon>ReceiptRegister.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RESERVATION.resx">
+      <DependentUpon>RESERVATION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ROOMWISE.resx">
+      <DependentUpon>ROOMWISE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\TaxReport.resx">
+      <DependentUpon>TaxReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Voidstatus.resx">
+      <DependentUpon>Voidstatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\ACCOUNTSITEMTAGGING.resx">
+      <DependentUpon>ACCOUNTSITEMTAGGING.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\checkavailability.resx">
+      <DependentUpon>checkavailability.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\HALLDISPLAY.resx">
+      <DependentUpon>HALLDISPLAY.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\Hallstatus.resx">
+      <DependentUpon>Hallstatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\NonProductPurchase.resx">
+      <DependentUpon>NonProductPurchase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\PARTYBilling.resx">
+      <DependentUpon>PARTYBilling.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\PARTYBOOKING.resx">
+      <DependentUpon>PARTYBOOKING.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\PARTYCANCEL.resx">
+      <DependentUpon>PARTYCANCEL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\partyconsumption.resx">
+      <DependentUpon>partyconsumption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\Partyreciptentry.resx">
+      <DependentUpon>Partyreciptentry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\PARTYVIEWBOOKING.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PARTYVIEWBOOKING.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\Receiptentry.resx">
+      <DependentUpon>Receiptentry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\SETTLEMENT.resx">
+      <DependentUpon>SETTLEMENT.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\Smartkotentry.resx">
+      <DependentUpon>Smartkotentry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWDET.resx">
+      <DependentUpon>VIEWDET.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWHDR.resx">
+      <DependentUpon>VIEWHDR.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Crystal\Dataset1.xsc">
+      <DependentUpon>Dataset1.xsd</DependentUpon>
+    </None>
+    <None Include="Crystal\Dataset1.xsd" />
+    <None Include="Crystal\Dataset1.xss">
+      <DependentUpon>Dataset1.xsd</DependentUpon>
+    </None>
+    <None Include="Crystal\Dataset1.xsx">
+      <DependentUpon>Dataset1.xsd</DependentUpon>
+    </None>
+    <None Include="Crystal\Dataset2.xsc">
+      <DependentUpon>Dataset2.xsd</DependentUpon>
+    </None>
+    <None Include="Crystal\Dataset2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dataset2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Crystal\Dataset2.xss">
+      <DependentUpon>Dataset2.xsd</DependentUpon>
+    </None>
+    <None Include="Crystal\Dataset2.xsx">
+      <DependentUpon>Dataset2.xsd</DependentUpon>
+    </None>
+    <None Include="Crystal\Dataset3.xsc">
+      <DependentUpon>Dataset3.xsd</DependentUpon>
+    </None>
+    <None Include="Crystal\Dataset3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dataset3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Crystal\Dataset3.xss">
+      <DependentUpon>Dataset3.xsd</DependentUpon>
+    </None>
+    <None Include="Crystal\Dataset3.xsx">
+      <DependentUpon>Dataset3.xsd</DependentUpon>
+    </None>
+    <None Include="Crystal\Dataset4.xsc">
+      <DependentUpon>Dataset4.xsd</DependentUpon>
+    </None>
+    <None Include="Crystal\Dataset4.xss">
+      <DependentUpon>Dataset4.xsd</DependentUpon>
+    </None>
+    <None Include="Crystal\Dataset4.xsx">
+      <DependentUpon>Dataset4.xsd</DependentUpon>
+    </None>
+    <None Include="Crystal\DataSet5.xsc">
+      <DependentUpon>DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Crystal\DataSet5.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet5.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Crystal\DataSet5.xss">
+      <DependentUpon>DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="KGA1314DataSet1.xsc">
+      <DependentUpon>KGA1314DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="KGA1314DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KGA1314DataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KGA1314DataSet1.xss">
+      <DependentUpon>KGA1314DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+    <Service Include="{CF845C55-C321-4742-B673-E6212D061ED9}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.FPSpreadADO" />
+    <Reference Include="AxInterop.MSFlexGridLib">
+      <HintPath>..\..\OLDSOURCE\PARTY22JUL13\bin\AxInterop.MSFlexGridLib.dll</HintPath>
+    </Reference>
+    <Reference Include="AxInterop.MSMask, Version=1.1.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AxInterop.MSMask.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.TemplateEngine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Interop.ADODB, Version=2.7.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Interop.ADODB.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.DataFormWizard6, Version=1.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\COMMONPARTYSOURCES\PARTY21JAN13\bin\Interop.DataFormWizard6.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.FPSpreadADO, Version=7.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Interop.FPSpreadADO.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.MSDataGridLib, Version=1.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Interop.MSDataGridLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.MSFlexGridLib, Version=1.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Interop.MSFlexGridLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.MSFlexGridWizard, Version=1.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\COMMONPARTYSOURCES\PARTY21JAN13\bin\Interop.MSFlexGridWizard.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SubWiz, Version=1.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\COMMONPARTYSOURCES\PARTY21JAN13\bin\Interop.SubWiz.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.VBA, Version=6.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\COMMONPARTYSOURCES\PARTY21JAN13\bin\Interop.VBA.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.VBIDE, Version=5.3.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\COMMONPARTYSOURCES\PARTY21JAN13\bin\Interop.VBIDE.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Program Files\Microsoft Visual Studio 11.0\Visual Studio Tools for Office\PIA\Office14\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="MSDATASRC, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\SmartPos\SmartPos\bin\Debug\MSDATASRC.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSDataGridLib">
+      <Guid>{CDE57A40-8B86-11D0-B3C6-00A0C90AEA82}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="MSFlexGridLib">
+      <Guid>{5E9E78A0-531B-11CF-91F6-C2863C385E30}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="StdFormat">
+      <Guid>{6B263850-900B-11D0-9484-00A0C91110ED}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

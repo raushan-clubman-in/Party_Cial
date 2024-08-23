@@ -1,0 +1,4 @@
+rem MD REPORTS
+CD REPORTS
+DEL  *.TXT
+DEL  *.BAT

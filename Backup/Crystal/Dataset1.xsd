@@ -1,0 +1,1559 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Dataset1" targetNamespace="http://tempuri.org/Dataset1.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/Dataset1.xsd" xmlns:mstns="http://tempuri.org/Dataset1.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Dataset1" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="PARTY_VIEW_HALLSTATUS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="HALLCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="HALLDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="B1" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B2" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B3" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B4" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B5" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B6" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B7" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B8" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B9" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B10" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B11" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B12" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B13" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B14" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B15" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B16" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B17" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B18" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B19" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B20" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B21" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B22" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B23" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="B24" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PARTY_VIEW_BOOKING_DETAILS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BOOKINGTYPE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGNO" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BOOKINGDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PARTYDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="MCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ASSOCIATENAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="OCCUPANCY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DESCRIPTION" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="HALLTAXFLAG" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ADVANCE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ARRMENTAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RESTAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLCANCELAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RESCANCELAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ARRCANCELAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="FREEZE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ADDDATETIME" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ADDUSERID" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="QTY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ROUNDOFF" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TAXPERC" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TAXAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTALAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CANCELAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AITEMCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ARATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AQTY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AROUNDOFF" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ATAXPERC" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ATAXAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ATOTALAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ACANCELAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="FITEMCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="FITEMDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="FUOM" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="FQTY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="HALLDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="LOCCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="LOCDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="FROMTIME" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTIME" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BOOKINGSTATUS" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGFLAG" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BILLINGFLAG" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CANCELFLAG" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="party_view_hallhistory">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="halltypecode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="halltypedesc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="loccode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="locdesc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="mincapacity" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="maxcapacity" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="actcapacity" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="rate" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="taxtype" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="menurate" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="menuheadrate" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="freeze" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adduser" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adddate" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="pcode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="pdesc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="fromtime" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="totime" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="sun" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="mon" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="tue" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="wed" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="thu" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="fri" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="sat" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VIEW_PARTY_CANCELLATIONHISTORY">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CANCELFROM" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CANCELTO" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CANCELTYPE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CANCEL_AMT_PER" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CANCEL_AMT_HEAD" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="FIXEDAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BOOK_FROMDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="BOOK_TODATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FREEZE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ADDUSER" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ADDDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VIEW_PARTY_CANCELLATIONHISTORY1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CANCELFROM" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CANCELTO" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CANCELTYPE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CANCEL_AMT_PER" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CANCEL_AMT_HEAD" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="FIXEDAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BOOK_FROMDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="BOOK_TODATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FREEZE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ADDUSER" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ADDDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VIEW_PARTY_CATEGORYHISTORY">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ccode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="cdesc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="freeze" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adduser" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adddate" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VIEW_PARTY_GROUPHISTORY">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="GROUPcode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="GROUPdesc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="freeze" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adduser" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adddate" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VIEW_PARTY_locationHISTORY">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="loccode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="locdesc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="freeze" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adduser" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adddate" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VIEW_PARTY_MENUGROUPHISTORY">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="menucode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="menudesc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="groupcode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="groupdesc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="freeze" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adduser" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adddate" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VIEW_PARTY_MENUHISTORY">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="MENUcode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="MENUdesc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="freeze" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adduser" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adddate" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VIEW_PARTY_PURPOSEHISTORY">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="pcode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="pdesc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="fromtime" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="totime" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="freeze" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adduser" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adddate" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VIEW_PARTY_TARIFFHISTORY">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="tariffcode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="tariffdesc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ccode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="rate" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="taxcode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="freeze" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adduser" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adddate" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="menucode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="menudesc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="maxitems" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="membermaster_view">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="MCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="MNAME" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTADD1" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTADD2" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTCITY" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTPIN" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTSTATE" type="xs:string" minOccurs="0" />
+							<xs:element name="TypeDesc" type="xs:string" />
+							<xs:element name="CurentStatus" type="xs:string" minOccurs="0" />
+							<xs:element name="RN1" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RN2" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RN3" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VIEW_MEMBERMASTER">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="MEMBERTYPECODE" type="xs:string" minOccurs="0" />
+							<xs:element name="MCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="MNAME" type="xs:string" minOccurs="0" />
+							<xs:element name="MID" type="xs:string" minOccurs="0" />
+							<xs:element name="DOB" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="DOJ" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PADD1" type="xs:string" minOccurs="0" />
+							<xs:element name="PADD2" type="xs:string" minOccurs="0" />
+							<xs:element name="PADD3" type="xs:string" minOccurs="0" />
+							<xs:element name="PCITY" type="xs:string" minOccurs="0" />
+							<xs:element name="PSTATE" type="xs:string" minOccurs="0" />
+							<xs:element name="PCOUNTRY" type="xs:string" minOccurs="0" />
+							<xs:element name="PPIN" type="xs:string" minOccurs="0" />
+							<xs:element name="PPHONE1" type="xs:string" minOccurs="0" />
+							<xs:element name="PPHONE2" type="xs:string" minOccurs="0" />
+							<xs:element name="PCELL" type="xs:string" minOccurs="0" />
+							<xs:element name="PEMAIL" type="xs:string" minOccurs="0" />
+							<xs:element name="CADD1" type="xs:string" minOccurs="0" />
+							<xs:element name="CADD2" type="xs:string" minOccurs="0" />
+							<xs:element name="CADD3" type="xs:string" minOccurs="0" />
+							<xs:element name="CCITY" type="xs:string" minOccurs="0" />
+							<xs:element name="CSTATE" type="xs:string" minOccurs="0" />
+							<xs:element name="CCOUNTRY" type="xs:string" minOccurs="0" />
+							<xs:element name="CPIN" type="xs:string" minOccurs="0" />
+							<xs:element name="CPHONE1" type="xs:string" minOccurs="0" />
+							<xs:element name="CPHONE2" type="xs:string" minOccurs="0" />
+							<xs:element name="CCELL" type="xs:string" minOccurs="0" />
+							<xs:element name="CEMAIL" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTADD1" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTADD2" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTADD3" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTCITY" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTSTATE" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTCOUNTRY" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTPIN" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTPHONE1" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTPHONE2" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTCELL" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTEMAIL" type="xs:string" minOccurs="0" />
+							<xs:element name="CurentStatus" type="xs:string" minOccurs="0" />
+							<xs:element name="FirstName" type="xs:string" minOccurs="0" />
+							<xs:element name="MiddleName" type="xs:string" minOccurs="0" />
+							<xs:element name="Surname" type="xs:string" minOccurs="0" />
+							<xs:element name="Billbasis" type="xs:string" minOccurs="0" />
+							<xs:element name="MSORDERNO" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ICNO" type="xs:string" minOccurs="0" />
+							<xs:element name="UnitNo" type="xs:string" minOccurs="0" />
+							<xs:element name="RankNo" type="xs:string" minOccurs="0" />
+							<xs:element name="DateOfCommission" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="DateOfRelease" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="DateOfCreation" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="BTGroup" type="xs:string" minOccurs="0" />
+							<xs:element name="RIDCardNo" type="xs:string" minOccurs="0" />
+							<xs:element name="ArmService" type="xs:string" minOccurs="0" />
+							<xs:element name="WO" type="xs:string" minOccurs="0" />
+							<xs:element name="NoOfDependencies" type="xs:string" minOccurs="0" />
+							<xs:element name="AnniversaryDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="RByMemberNo" type="xs:string" minOccurs="0" />
+							<xs:element name="RByName" type="xs:string" minOccurs="0" />
+							<xs:element name="ArmyNo" type="xs:string" minOccurs="0" />
+							<xs:element name="RankName" type="xs:string" minOccurs="0" />
+							<xs:element name="BarcodeNo" type="xs:string" minOccurs="0" />
+							<xs:element name="DependentID" type="xs:decimal" minOccurs="0" />
+							<xs:element name="MemberType" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="party_REST_itemwise">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="mcode" type="xs:string" minOccurs="0" />
+							<xs:element name="rowid" type="xs:decimal" />
+							<xs:element name="loccode" type="xs:string" minOccurs="0" />
+							<xs:element name="bookingno" type="xs:decimal" />
+							<xs:element name="partydate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="chitno" type="xs:string" minOccurs="0" />
+							<xs:element name="itemcode" type="xs:string" />
+							<xs:element name="itemdesc" type="xs:string" minOccurs="0" />
+							<xs:element name="rate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="qty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="taxamount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="totalamount" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="party_arrangemaster_hdr">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROWID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="ARRCODE" type="xs:string" />
+							<xs:element name="ARRDESCRIPTION" type="xs:string" minOccurs="0" />
+							<xs:element name="RATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="category" type="xs:string" minOccurs="0" />
+							<xs:element name="UOM" type="xs:string" minOccurs="0" />
+							<xs:element name="FREEZE" type="xs:string" minOccurs="0" />
+							<xs:element name="AddDateTime" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="adduserid" type="xs:string" minOccurs="0" />
+							<xs:element name="Itemtypecode" type="xs:string" minOccurs="0" />
+							<xs:element name="CGROUPCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="glaccode" type="xs:string" minOccurs="0" />
+							<xs:element name="SBFCHARGE" type="xs:string" minOccurs="0" />
+							<xs:element name="GLCCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="GLACCODE1" type="xs:string" minOccurs="0" />
+							<xs:element name="GLCCODE1" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="party_restaurant">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROWID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="BOOKINGNO" type="xs:decimal" />
+							<xs:element name="BOOKINGTYPE" type="xs:string" />
+							<xs:element name="BOOKINGDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="TTYPE" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMCODE" type="xs:string" />
+							<xs:element name="RATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="QTY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ROUNDOFF" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TAXPERC" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TAXAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTALAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CANCELAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="FREEZE" type="xs:string" minOccurs="0" />
+							<xs:element name="ADDUSERID" type="xs:string" minOccurs="0" />
+							<xs:element name="ADDDATETIME" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="GROUPCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="MENUCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="TARIFFCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="MAXITEMS" type="xs:decimal" minOccurs="0" />
+							<xs:element name="LOCCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="CHITNO" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="party_grouping_details">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROWID" type="xs:decimal" />
+							<xs:element name="BOOKINGNO" type="xs:decimal" />
+							<xs:element name="BOOKINGTYPE" type="xs:string" />
+							<xs:element name="BOOKINGDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="TTYPE" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMCODE" type="xs:string" />
+							<xs:element name="RATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="QTY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ROUNDOFF" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TAXPERC" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TAXAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTALAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CANCELAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="FREEZE" type="xs:string" minOccurs="0" />
+							<xs:element name="ADDUSERID" type="xs:string" minOccurs="0" />
+							<xs:element name="ADDDATETIME" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="GROUPCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="MENUCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="TARIFFCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="MAXITEMS" type="xs:decimal" minOccurs="0" />
+							<xs:element name="LOCCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="CHITNO" type="xs:string" minOccurs="0" />
+							<xs:element name="GROUPDESC" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VIEW_PARTY_BOOKINGDETAILS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="loccode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="bookingno" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="partydate" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="hallcode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="halldescription" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="mcode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="mname" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="fromtime" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="totime" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="bookingdate" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="associatename" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="description" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Advance" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="halltaxflag" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="membertype" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="receiptno" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="receiptdate" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="hallamount" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="freeze" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adduserid" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adddatetime" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="halltype" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGTYPE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="hallTaxpercentage" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+							<xs:element name="hallTaxAMOUNT" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+							<xs:element name="NETHALLAMOUNT" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+							<xs:element name="OCCUPANCY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="VEG" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="nonveg" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CREDIT_MEMBER_MPOSTING">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Billdetails" type="xs:string" />
+							<xs:element name="billdate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Acdesc" type="xs:string" />
+							<xs:element name="mcode" type="xs:string" minOccurs="0" />
+							<xs:element name="Acctcode" type="xs:string" />
+							<xs:element name="CREDITDEBIT" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VIEW_PARTY_BILLING">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="loccode" type="xs:string" />
+							<xs:element name="BOOKINGTYPE" type="xs:string" />
+							<xs:element name="BOOKINGNO" type="xs:decimal" />
+							<xs:element name="FREEZE" type="xs:string" />
+							<xs:element name="BOOKINGDATE" type="xs:dateTime" />
+							<xs:element name="PARTYDATE" type="xs:dateTime" />
+							<xs:element name="HALLTYPE" type="xs:string" />
+							<xs:element name="MCODE" type="xs:string" />
+							<xs:element name="ASSOCIATENAME" type="xs:string" />
+							<xs:element name="MNAME" type="xs:string" />
+							<xs:element name="HALLCODE" type="xs:string" />
+							<xs:element name="ADVANCE" type="xs:decimal" />
+							<xs:element name="HALLAMOUNT" type="xs:decimal" />
+							<xs:element name="HALLTAXAMOUNT" type="xs:decimal" />
+							<xs:element name="HALL" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BOOKINGTARIFFAMOUNT" type="xs:decimal" />
+							<xs:element name="EXCESSTARIFFAMOUNT" type="xs:decimal" />
+							<xs:element name="TARIFFTAXAMOUNT" type="xs:decimal" />
+							<xs:element name="TARIFFAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RESTAMOUNT" type="xs:decimal" />
+							<xs:element name="RESTTAXAMOUNT" type="xs:decimal" />
+							<xs:element name="REST" type="xs:decimal" minOccurs="0" />
+							<xs:element name="occupancy" type="xs:decimal" />
+							<xs:element name="VEG" type="xs:decimal" />
+							<xs:element name="NONVEG" type="xs:decimal" />
+							<xs:element name="ARRMENTAMOUNT" type="xs:decimal" />
+							<xs:element name="ARRMENTTAXAMOUNT" type="xs:decimal" />
+							<xs:element name="ARRMENT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CAMOUNT" type="xs:decimal" />
+							<xs:element name="SBFCHARGE" type="xs:decimal" />
+							<xs:element name="NETPAYABLE" type="xs:decimal" />
+							<xs:element name="NETAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="NETTAX" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Party_TariffHdr">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="autoid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="ccode" type="xs:string" minOccurs="0" />
+							<xs:element name="tariffcode" type="xs:string" minOccurs="0" />
+							<xs:element name="tariffdesc" type="xs:string" minOccurs="0" />
+							<xs:element name="rate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="taxcode" type="xs:string" minOccurs="0" />
+							<xs:element name="freeze" type="xs:string" minOccurs="0" />
+							<xs:element name="adduser" type="xs:string" minOccurs="0" />
+							<xs:element name="adddate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="SBFCHARGE" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRATY_VIEW_PARTYADDTIONALCHARGEABLEITEMS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TTYPE" type="xs:string" />
+							<xs:element name="RITEMCODE" type="xs:string" />
+							<xs:element name="RITEMDESC" type="xs:string" />
+							<xs:element name="RQTY" type="xs:decimal" />
+							<xs:element name="RRATE" type="xs:decimal" />
+							<xs:element name="PRAMOUNT" type="xs:decimal" />
+							<xs:element name="PRTAXPERC" type="xs:decimal" />
+							<xs:element name="PRTAXAMOUNT" type="xs:decimal" />
+							<xs:element name="PRTOTALAMOUNT" type="xs:decimal" />
+							<xs:element name="ISBFCHARGE" type="xs:string" />
+							<xs:element name="BOOKINGNO" type="xs:decimal" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRATY_VIEW_PARTYHALLDETAILS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Hallcode" type="xs:string" />
+							<xs:element name="HallDesc" type="xs:string" />
+							<xs:element name="PDesc" type="xs:string" />
+							<xs:element name="fromtime" type="xs:decimal" />
+							<xs:element name="totime" type="xs:decimal" />
+							<xs:element name="Hallamount" type="xs:decimal" />
+							<xs:element name="HALLTAXAMOUNT" type="xs:decimal" />
+							<xs:element name="HALLTAXPERC" type="xs:decimal" />
+							<xs:element name="HALLNETAMOUNT" type="xs:decimal" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRATY_VIEW_PARTYLIQURITEMS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TTYPE" type="xs:string" />
+							<xs:element name="RITEMCODE" type="xs:string" />
+							<xs:element name="RITEMDESC" type="xs:string" />
+							<xs:element name="RQTY" type="xs:decimal" />
+							<xs:element name="RRATE" type="xs:decimal" />
+							<xs:element name="PRAMOUNT" type="xs:decimal" />
+							<xs:element name="PRTAXPERC" type="xs:decimal" />
+							<xs:element name="PRTAXAMOUNT" type="xs:decimal" />
+							<xs:element name="PRTOTALAMOUNT" type="xs:decimal" />
+							<xs:element name="ISBFCHARGE" type="xs:string" />
+							<xs:element name="BOOKINGNO" type="xs:decimal" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRATY_VIEW_PARTYHALLDETAILS1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Hallcode" type="xs:string" />
+							<xs:element name="HallDesc" type="xs:string" />
+							<xs:element name="PDesc" type="xs:string" />
+							<xs:element name="fromtime" type="xs:decimal" />
+							<xs:element name="totime" type="xs:decimal" />
+							<xs:element name="Hallamount" type="xs:decimal" />
+							<xs:element name="HALLTAXAMOUNT" type="xs:decimal" />
+							<xs:element name="HALLTAXPERC" type="xs:decimal" />
+							<xs:element name="HALLNETAMOUNT" type="xs:decimal" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PARTY_BAR_CONSUMPTION">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="LOCCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGNO" type="xs:string" minOccurs="0" />
+							<xs:element name="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="MCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="MNAME" type="xs:string" minOccurs="0" />
+							<xs:element name="REMARKS" type="xs:string" minOccurs="0" />
+							<xs:element name="POSCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMDESC" type="xs:string" minOccurs="0" />
+							<xs:element name="UOM" type="xs:string" minOccurs="0" />
+							<xs:element name="RATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="QTY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTALAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="FREEZE" type="xs:string" minOccurs="0" />
+							<xs:element name="ADDUSERID" type="xs:string" minOccurs="0" />
+							<xs:element name="ADDDATETIME" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PARTY_TAR_VIEW1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BOOKINGNO" type="xs:decimal" />
+							<xs:element name="BOOKINGTYPE" type="xs:string" />
+							<xs:element name="VEGRATE" type="xs:decimal" />
+							<xs:element name="NONVEGRATE" type="xs:decimal" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PARTY_VIEW_HALLBOOKINGDETAILS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="LOCCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CATEGORY" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGTYPE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="HALLCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="HALLDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="OCCUPANCY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="veg" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="nonveg" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="HMLOCCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="LOCDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGNO" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PARTYDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="MCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="MNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="groupcode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PADD1" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PADD2" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PCITY" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PPHONE1" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CEMAIL" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FROMTIME" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTIME" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BOOKINGSTATUS" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGFLAG" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BILLINGFLAG" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CANCELFLAG" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="FREEZE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RECEIPTNO" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RECEIPTDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="RAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNTTYPE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="TTYPE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PRROWID" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RITEMCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RITEMDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RQTY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RRATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PRAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PRTAXPERC" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PRTAXAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PRTOTALAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TARIFFCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="TARIFFDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="TRATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AROWID" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AITEMCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="AITEMDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="AQTY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ARATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ATAXAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ATOTALAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLTAXAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLTAXPERC" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLNETAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HOCCUPANCY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ISBFCHARGE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ASBFCHARGE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="TSBFCHARGE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PRIORITY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="vegrate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="nonvegrate" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PARTY_RESTITEMS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CHITNO" type="xs:string" minOccurs="0" />
+							<xs:element name="priority" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="LOCCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CATEGORY" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGTYPE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="HALLCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="HALLDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="OCCUPANCY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="veg" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="nonveg" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="HMLOCCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="LOCDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGNO" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PARTYDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="MCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="MNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="groupcode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PADD1" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PADD2" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PCITY" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PPHONE1" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CEMAIL" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FROMTIME" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTIME" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BOOKINGSTATUS" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGFLAG" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BILLINGFLAG" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CANCELFLAG" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="FREEZE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RECEIPTNO" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RECEIPTDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="RAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNTTYPE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="TTYPE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PRROWID" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ITEMCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RITEMDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RQTY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RRATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PRAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="VEGRATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="NONVEGRATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PRTAXPERC" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PRTAXAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PRTOTALAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TARIFFCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="TARIFFDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="TRATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AROWID" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AITEMCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="AITEMDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="AQTY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ARATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ATAXAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ATOTALAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLTAXAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLTAXPERC" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLNETAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HOCCUPANCY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ISBFCHARGE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ASBFCHARGE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="TSBFCHARGE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="VITEMCODE" type="xs:string" />
+							<xs:element name="VITEMDESC" type="xs:string" minOccurs="0" />
+							<xs:element name="UOM" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VIEW_PARTY_BOOKINGDETAILS1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="loccode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="bookingno" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="partydate" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="hallcode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="halldescription" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="mcode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="mname" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="fromtime" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="totime" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="bookingdate" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="associatename" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="description" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="halltaxflag" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="membertype" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="hallamount" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="freeze" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="void" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adduserid" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="adddatetime" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="halltype" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGTYPE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="hallTaxpercentage" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+							<xs:element name="hallTaxAMOUNT" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+							<xs:element name="NETHALLAMOUNT" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+							<xs:element name="OCCUPANCY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="VEG" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="nonveg" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="partyarrangementfinal">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="bookingtype" type="xs:string" minOccurs="0" />
+							<xs:element name="bookingno" type="xs:decimal" minOccurs="0" />
+							<xs:element name="mcode" type="xs:string" />
+							<xs:element name="mname" type="xs:string" />
+							<xs:element name="halldesc" type="xs:string" />
+							<xs:element name="PARTYDATE" type="xs:dateTime" />
+							<xs:element name="totalamount" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PARTY_VIEW_HALLBOOKINGDETAILS_NEW">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CHITNO" type="xs:string" minOccurs="0" />
+							<xs:element name="priority" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="LOCCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CATEGORY" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGTYPE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="HALLCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="HALLDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="OCCUPANCY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="veg" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="nonveg" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="HMLOCCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="LOCDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGNO" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PARTYDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="MCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="MNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="groupcode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PADD1" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PADD2" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PCITY" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PPHONE1" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CEMAIL" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FROMTIME" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTIME" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BOOKINGSTATUS" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGFLAG" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BILLINGFLAG" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CANCELFLAG" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="FREEZE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RECEIPTNO" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RECEIPTDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="RAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNTTYPE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="TTYPE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PRROWID" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ITEMCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RITEMDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RQTY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RRATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PRAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="VEGRATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="NONVEGRATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PRTAXPERC" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PRTAXAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PRTOTALAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TARIFFCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="TARIFFDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="TRATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AROWID" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AITEMCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="AITEMDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="AQTY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ARATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ATAXAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ATOTALAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLTAXAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLTAXPERC" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLNETAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HOCCUPANCY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ISBFCHARGE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ASBFCHARGE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="TSBFCHARGE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="partyreceiptvoucher1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="bookingno" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PARTYRECEIPTNO" type="xs:string" minOccurs="0" />
+							<xs:element name="PARTYRECEIPTDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PAYMENTMODE" type="xs:string" minOccurs="0" />
+							<xs:element name="DESCRIPTION" type="xs:string" minOccurs="0" />
+							<xs:element name="MCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="MNAME" type="xs:string" minOccurs="0" />
+							<xs:element name="amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Receiptheadcode" type="xs:string" minOccurs="0" />
+							<xs:element name="Receiptheaddesc" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PARTY_VIEWHEAD">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="autoid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="Receiptheadcode" type="xs:string" minOccurs="0" />
+							<xs:element name="Receiptheaddesc" type="xs:string" minOccurs="0" />
+							<xs:element name="freeze" type="xs:string" minOccurs="0" />
+							<xs:element name="priority" type="xs:int" minOccurs="0" />
+							<xs:element name="TYPE" type="xs:string" minOccurs="0" />
+							<xs:element name="AddUserId" type="xs:string" minOccurs="0" />
+							<xs:element name="RECseqno" type="xs:string" minOccurs="0" />
+							<xs:element name="AddDateTime" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ACCOUNTIN" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="partyreceiptvoucher">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="bookingno" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PARTYRECEIPTNO" type="xs:string" minOccurs="0" />
+							<xs:element name="PARTYRECEIPTDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PAYMENTMODE" type="xs:string" minOccurs="0" />
+							<xs:element name="DESCRIPTION" type="xs:string" minOccurs="0" />
+							<xs:element name="MCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="MNAME" type="xs:string" minOccurs="0" />
+							<xs:element name="amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Receiptheadcode" type="xs:string" minOccurs="0" />
+							<xs:element name="Receiptheaddesc" type="xs:string" minOccurs="0" />
+							<xs:element name="GUESTNAME" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PARTY_MENU">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BOOKINGNO" type="xs:decimal" />
+							<xs:element name="BOOKINGTYPE" type="xs:string" />
+							<xs:element name="BOOKINGDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ITEMCODE" type="xs:string" />
+							<xs:element name="RATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="QTY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TAXAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTALAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="FREEZE" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMDESC" type="xs:string" minOccurs="0" />
+							<xs:element name="GROUPCODE" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PARTY_ARRANGE">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BOOKINGNO" type="xs:decimal" />
+							<xs:element name="BOOKINGTYPE" type="xs:string" />
+							<xs:element name="BOOKINGDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ITEMCODE" type="xs:string" />
+							<xs:element name="RATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="QTY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TAXAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTALAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="FREEZE" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMDESC" type="xs:string" minOccurs="0" />
+							<xs:element name="GROUPCODE" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="party_arrangement_book">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ITEMCODE" type="xs:string" />
+							<xs:element name="ITEMDESC" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGNO" type="xs:decimal" />
+							<xs:element name="BOOKINGDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="rates" type="xs:decimal" minOccurs="0" />
+							<xs:element name="QTY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TAXAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="party_menu_book">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ITEMCODE" type="xs:string" />
+							<xs:element name="ITEMDESC" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGNO" type="xs:decimal" />
+							<xs:element name="BOOKINGDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="rates" type="xs:decimal" minOccurs="0" />
+							<xs:element name="QTY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TAXAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="SERTAX" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UOM" type="xs:string" minOccurs="0" />
+							<xs:element name="CATEGORY" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PARTY_MEN">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BOOKINGNO" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BOOKINGDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="MENUCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="OCCUPANCY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="rate" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PAR_ARRANGEMENT">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ITEMCODE" type="xs:string" />
+							<xs:element name="ITEMDESC" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMTYPECODE" type="xs:string" minOccurs="0" />
+							<xs:element name="GROUPCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="UOM" type="xs:string" minOccurs="0" />
+							<xs:element name="RATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TAXPERC" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="FREEZE" type="xs:string" minOccurs="0" />
+							<xs:element name="adddatetime" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="adduserid" type="xs:string" minOccurs="0" />
+							<xs:element name="CGROUPCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="GROUPCODEOLD" type="xs:string" minOccurs="0" />
+							<xs:element name="GLACCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="AUTOID" type="xs:decimal" />
+							<xs:element name="SBFCHARGE" type="xs:string" minOccurs="0" />
+							<xs:element name="CATEGORY" type="xs:string" minOccurs="0" />
+							<xs:element name="GLCCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="GLACCODE1" type="xs:string" minOccurs="0" />
+							<xs:element name="GLCCODE1" type="xs:string" minOccurs="0" />
+							<xs:element name="TYPE" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMDES" type="xs:string" minOccurs="0" />
+							<xs:element name="bookingno" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PAR_HDR">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROWID" type="xs:decimal" />
+							<xs:element name="BOOKINGTYPE" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGNO" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BOOKINGDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FROMTIME" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTIME" type="xs:decimal" minOccurs="0" />
+							<xs:element name="MCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="ASSOCIATENAME" type="xs:string" minOccurs="0" />
+							<xs:element name="HALLCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="OCCUPANCY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DESCRIPTION" type="xs:string" minOccurs="0" />
+							<xs:element name="HALLTAXFLAG" type="xs:string" minOccurs="0" />
+							<xs:element name="ADVANCE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLTAXPERC" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLTAXAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BOOKINGTARIFFAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="EXCESSTARIFFAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RESTAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RESTTAXAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ARRMENTAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ARRMENTTAXAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RECEIPTNO" type="xs:string" minOccurs="0" />
+							<xs:element name="RECEIPTDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="HALLCANCELAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RESCANCELAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ARRCANCELAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="FREEZE" type="xs:string" minOccurs="0" />
+							<xs:element name="ADDDATETIME" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ADDUSERID" type="xs:string" minOccurs="0" />
+							<xs:element name="FROMHRS" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOHRS" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CANCELDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="NETPAYABLE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="SBFCHARGE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TARIFFTAXAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BOOKINGOCCUPANCY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BILLINGOCCUPANCY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ABOOKINGOCCUPANCY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ABILLINGOCCUPANCY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ALLOWEDOCCUPANCY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DIFFOCCUPANCY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="hallamt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="halltaxamt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="hallnetamt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="rcamt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RESAMT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RESTAXAMT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RESTOTALAMT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RESSBFAMT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BARAMT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BARTAXAMT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BARTOTALAMT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BARSBFAMT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TARSBFCHARGE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TRATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DRATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DIFFVALUE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BOOKINGVALUE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TARIFFVALUE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TARIFFSBF" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TARIFFTAXAMT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ARRAMT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ARRTAXAMT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ARRTOTALAMT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ARRSBFAMT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TAXTOTAL" type="xs:decimal" minOccurs="0" />
+							<xs:element name="STAX" type="xs:decimal" minOccurs="0" />
+							<xs:element name="GROSSTOTAL" type="xs:decimal" minOccurs="0" />
+							<xs:element name="NETTOTAL" type="xs:decimal" minOccurs="0" />
+							<xs:element name="tbillamount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="SBFTAX" type="xs:decimal" minOccurs="0" />
+							<xs:element name="LOCCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="CONT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="VAT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="INVOICENO" type="xs:decimal" minOccurs="0" />
+							<xs:element name="veg" type="xs:decimal" minOccurs="0" />
+							<xs:element name="nonveg" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Void" type="xs:string" minOccurs="0" />
+							<xs:element name="VEGRATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="NONVEGRATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="freereason" type="xs:string" minOccurs="0" />
+							<xs:element name="vegcode" type="xs:string" minOccurs="0" />
+							<xs:element name="nonvegcode" type="xs:string" minOccurs="0" />
+							<xs:element name="MENUCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="MNAME" type="xs:string" minOccurs="0" />
+							<xs:element name="CADD1" type="xs:string" minOccurs="0" />
+							<xs:element name="CADD2" type="xs:string" minOccurs="0" />
+							<xs:element name="CADD3" type="xs:string" minOccurs="0" />
+							<xs:element name="CCITY" type="xs:string" minOccurs="0" />
+							<xs:element name="CSTATE" type="xs:string" minOccurs="0" />
+							<xs:element name="CPHONE1" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CCELL" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PAR_RECEIPTS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BOOKINGnO" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Receiptheadcode" type="xs:string" minOccurs="0" />
+							<xs:element name="RECEIPTHEADDESC" type="xs:string" minOccurs="0" />
+							<xs:element name="PAYMENTMODE" type="xs:string" minOccurs="0" />
+							<xs:element name="amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="INSTDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="INSTNO" type="xs:string" minOccurs="0" />
+							<xs:element name="DRAWBANK" type="xs:string" minOccurs="0" />
+							<xs:element name="CARDNUMBER" type="xs:string" minOccurs="0" />
+							<xs:element name="BALAMT" type="xs:long" minOccurs="0" />
+							<xs:element name="PARTYRECEIPTNO" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PAR_RECEIPTS_REFUND">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BOOKINGnO" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Receiptheadcode" type="xs:string" minOccurs="0" />
+							<xs:element name="RECEIPTHEADDESC" type="xs:string" minOccurs="0" />
+							<xs:element name="PAYMENTMODE" type="xs:string" minOccurs="0" />
+							<xs:element name="amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="INSTDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="INSTNO" type="xs:string" minOccurs="0" />
+							<xs:element name="DRAWBANK" type="xs:string" minOccurs="0" />
+							<xs:element name="CARDNUMBER" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="partyreceiptreport">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BOOKINGNO" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PARTYRECEIPTNO" type="xs:string" minOccurs="0" />
+							<xs:element name="PARTYRECEIPTDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PAYMENTMODE" type="xs:string" minOccurs="0" />
+							<xs:element name="DESCRIPTION" type="xs:string" minOccurs="0" />
+							<xs:element name="mcode" type="xs:string" minOccurs="0" />
+							<xs:element name="MNAME" type="xs:string" minOccurs="0" />
+							<xs:element name="Receiptheadcode" type="xs:string" minOccurs="0" />
+							<xs:element name="Receiptheaddesc" type="xs:string" minOccurs="0" />
+							<xs:element name="AMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RECEIPTTYPE" type="xs:string" minOccurs="0" />
+							<xs:element name="INSTNO" type="xs:string" minOccurs="0" />
+							<xs:element name="INSTDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="DRAWBANK" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PAR_HALLBOOKING">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROWID" type="xs:decimal" />
+							<xs:element name="BOOKINGNO" type="xs:decimal" />
+							<xs:element name="HALLCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="HALLTYPE" type="xs:string" minOccurs="0" />
+							<xs:element name="TARIFFCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FROMTIME" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTIME" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ADDDATETIME" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ADDUSERID" type="xs:string" minOccurs="0" />
+							<xs:element name="FREEZE" type="xs:string" minOccurs="0" />
+							<xs:element name="HALLTAXAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLTAXPERC" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLNETAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="LOCCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="Void" type="xs:string" minOccurs="0" />
+							<xs:element name="HALLDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DISCOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTALAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="halltotalamount" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="partyreceiptvoucher_CANCEL">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="bookingno" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PARTYRECEIPTNO" type="xs:string" minOccurs="0" />
+							<xs:element name="PARTYRECEIPTDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PAYMENTMODE" type="xs:string" minOccurs="0" />
+							<xs:element name="DESCRIPTION" type="xs:string" minOccurs="0" />
+							<xs:element name="MCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="MNAME" type="xs:string" minOccurs="0" />
+							<xs:element name="amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Receiptheadcode" type="xs:string" minOccurs="0" />
+							<xs:element name="Receiptheaddesc" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PARTY_ITEM_DISCOUNT">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DISCOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BOOKINGNO" type="xs:decimal" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="HALLBOOKINGDISCOUNT">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BOOKINGNO" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DISCOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="BANQUETFREEZEREPORT">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BOOKINGNO" type="xs:decimal" />
+							<xs:element name="BOOKINGDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="HALLCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="halltypedesc" type="xs:string" minOccurs="0" />
+							<xs:element name="HALLNETAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="MCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="ASSOCIATENAME" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="partyreceiptreport_REFUND">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BOOKINGNO" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PARTYRECEIPTNO" type="xs:string" minOccurs="0" />
+							<xs:element name="PARTYRECEIPTDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PAYMENTMODE" type="xs:string" minOccurs="0" />
+							<xs:element name="DESCRIPTION" type="xs:string" minOccurs="0" />
+							<xs:element name="mcode" type="xs:string" minOccurs="0" />
+							<xs:element name="MNAME" type="xs:string" minOccurs="0" />
+							<xs:element name="Receiptheadcode" type="xs:string" minOccurs="0" />
+							<xs:element name="Receiptheaddesc" type="xs:string" minOccurs="0" />
+							<xs:element name="AMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RECEIPTTYPE" type="xs:string" minOccurs="0" />
+							<xs:element name="INSTNO" type="xs:string" minOccurs="0" />
+							<xs:element name="INSTDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="DRAWBANK" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="totalbanquetreport">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BOOKINGNO" type="xs:decimal" />
+							<xs:element name="BOOKINGDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="partydate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="tax" type="xs:decimal" minOccurs="0" />
+							<xs:element name="amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="discount" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="totalamount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="itemtotamount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="occupancy" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="menucode" type="xs:string" />
+							<xs:element name="rate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="menuamount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="banquethallamount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="MCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="ASSOCIATENAME" type="xs:string" minOccurs="0" />
+							<xs:element name="SERTAX" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PAR_ADDITIONALITEMS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ROWID" type="xs:decimal" />
+							<xs:element name="BOOKINGNO" type="xs:decimal" />
+							<xs:element name="BOOKINGTYPE" type="xs:string" />
+							<xs:element name="BOOKINGDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="TTYPE" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMCODE" type="xs:string" />
+							<xs:element name="RATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="QTY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ROUNDOFF" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TAXPERC" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TAXAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTALAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CANCELAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="FREEZE" type="xs:string" minOccurs="0" />
+							<xs:element name="ADDUSERID" type="xs:string" minOccurs="0" />
+							<xs:element name="ADDDATETIME" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="GROUPCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="MENUCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="TARIFFCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="MAXITEMS" type="xs:decimal" minOccurs="0" />
+							<xs:element name="LOCCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="CHITNO" type="xs:string" minOccurs="0" />
+							<xs:element name="MENUCODETARIFF" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMDESC" type="xs:string" minOccurs="0" />
+							<xs:element name="discount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AFTERTOTAMT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="SERTAX" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UOM" type="xs:string" minOccurs="0" />
+							<xs:element name="CATEGORY" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMNAME" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PARTY_BOOKDETAILS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BOOKINGNO" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BOOKINGDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="MEMBERID" type="xs:string" minOccurs="0" />
+							<xs:element name="ASSOCIATENAME" type="xs:string" minOccurs="0" />
+							<xs:element name="DESCRIPTION" type="xs:string" minOccurs="0" />
+							<xs:element name="OCCUPANCY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="VEG" type="xs:string" minOccurs="0" />
+							<xs:element name="NONVEG" type="xs:string" minOccurs="0" />
+							<xs:element name="GUESTNAME" type="xs:string" minOccurs="0" />
+							<xs:element name="HALLCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="FROMTIME" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTIME" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PARTYRECEIPTNO" type="xs:string" minOccurs="0" />
+							<xs:element name="PARTYRECEIPTDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PAYMENTMODE" type="xs:string" minOccurs="0" />
+							<xs:element name="Receiptheaddesc" type="xs:string" minOccurs="0" />
+							<xs:element name="AMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RECEIPTTYPE" type="xs:string" minOccurs="0" />
+							<xs:element name="adduserid" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="foodorder1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BOOKINGNO" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="DESCRIPTION" type="xs:string" minOccurs="0" />
+							<xs:element name="MCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="MNAME" type="xs:string" minOccurs="0" />
+							<xs:element name="GUESTNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTADD1" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTADD2" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTADD3" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTCITY" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTSTATE" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTPIN" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTPHONE1" type="xs:string" minOccurs="0" />
+							<xs:element name="CONTCELL" type="xs:string" minOccurs="0" />
+							<xs:element name="OCCUPANCY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="halltypedesc" type="xs:string" minOccurs="0" />
+							<xs:element name="pdesc" type="xs:string" minOccurs="0" />
+							<xs:element name="fromtime" type="xs:string" minOccurs="0" />
+							<xs:element name="totime" type="xs:string" minOccurs="0" />
+							<xs:element name="totalamount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BOOKINGDATE" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="party_receiptsummary">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="bookingno" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PAYMENTMODE" type="xs:string" minOccurs="0" />
+							<xs:element name="mcode" type="xs:string" minOccurs="0" />
+							<xs:element name="MNAME" type="xs:string" minOccurs="0" />
+							<xs:element name="AMOUNT" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="party_book_memberwise">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BOOKINGNO" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BOOKINGDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="partydate" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="itemcode" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="itemdesc" type="xs:string" minOccurs="0" />
+							<xs:element name="RATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="QTY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="SERTAX" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CATEGORY" type="xs:string" minOccurs="0" />
+							<xs:element name="TAXAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTALAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="MCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="ASSOCIATENAME" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PARTY_RECEIPTREPORT">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BOOKINGNO" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PARTYRECEIPTNO" type="xs:string" minOccurs="0" />
+							<xs:element name="PARTYRECEIPTDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="adduserid" type="xs:string" minOccurs="0" />
+							<xs:element name="RECEIPTTYPE" type="xs:string" minOccurs="0" />
+							<xs:element name="PAYMENTMODE" type="xs:string" minOccurs="0" />
+							<xs:element name="Receiptheaddesc" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PARTY_BOOKDETAILS1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BOOKINGNO" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BOOKINGDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="MEMBERID" type="xs:string" minOccurs="0" />
+							<xs:element name="ASSOCIATENAME" type="xs:string" minOccurs="0" />
+							<xs:element name="DESCRIPTION" type="xs:string" minOccurs="0" />
+							<xs:element name="OCCUPANCY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="VEG" type="xs:string" minOccurs="0" />
+							<xs:element name="NONVEG" type="xs:string" minOccurs="0" />
+							<xs:element name="GUESTNAME" type="xs:string" minOccurs="0" />
+							<xs:element name="HALLCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="FROMTIME" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTIME" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PARTYRECEIPTNO" type="xs:string" minOccurs="0" />
+							<xs:element name="PARTYRECEIPTDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PAYMENTMODE" type="xs:string" minOccurs="0" />
+							<xs:element name="Receiptheaddesc" type="xs:string" minOccurs="0" />
+							<xs:element name="AMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RECEIPTTYPE" type="xs:string" minOccurs="0" />
+							<xs:element name="adduserid" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="partyreceipt_view">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BOOKINGNO" type="xs:decimal" />
+							<xs:element name="HALLCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="BOOKINGDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FROMTIME" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTIME" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLTAXAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="halltypedesc" type="xs:string" minOccurs="0" />
+							<xs:element name="sedeposit" type="xs:decimal" minOccurs="0" />
+							<xs:element name="MCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="ASSOCIATENAME" type="xs:string" minOccurs="0" />
+							<xs:element name="GUESTNAME" type="xs:string" minOccurs="0" />
+							<xs:element name="FREERESON" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CCELL" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DESCRIPTION" type="xs:string" minOccurs="0" />
+							<xs:element name="OCCUPANCY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="HALLNETAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DISCOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DISCOUNTAMT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTALAMOUNT" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PARTY_BILLDETAILS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BOOKINGNO" type="xs:decimal" />
+							<xs:element name="BOOKINGDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PARTYDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="BARAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="OTHERSAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CATERINGAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BARTAX" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="OTHERSTAX" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CATERINGTAX" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BARSERTAX" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="OTHERSSERTAX" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CATERINGSERTAX" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="discount" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTALAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ITEMTOTAMOUNT" type="xs:decimal" minOccurs="0" />
+							<xs:element name="occupancy" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="menucode" type="xs:string" />
+							<xs:element name="rate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="menuamount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="banquethallamount" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="MCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="ASSOCIATENAME" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
